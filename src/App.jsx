@@ -31,6 +31,7 @@ function HomePage() {
       <OurLawyers />
       <PsychiatristPsychologist />
       <OurServices />
+      <EventDetails/>
       <OurTeam />
       <CharityMorganCafe />
       <PhotoGallery />
