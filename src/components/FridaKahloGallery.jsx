@@ -201,7 +201,7 @@ function FridaKahloGallery() {
       medium: "Medium: Oil Painting"
     },
     {
-      image: "https://res-console.cloudinary.com/db5yniogx/thumbnails/v1/image/upload/v1735388820/U2VsZi1yZWFsaXphdGlvbl9TaGliYW5pLUthcm1ha2FyLVNoaWx1LTg1M3gxMDI0X21jaG44bg==/drilldown",
+      image: "https://res.cloudinary.com/db5yniogx/image/upload/v1735388820/Self-realization_Shibani-Karmakar-Shilu-853x1024_mchn8n.jpg",
       title: "Self-realization 1",
       artist: "Artist: Shibani Karmakar Shilu",
       price: "Price: 30000 (BDT)",
