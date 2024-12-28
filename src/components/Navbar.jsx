@@ -1,8 +1,13 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom"; // Import NavLink
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  // Function to close the menu
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
 
   return (
     <nav className="bg-white text-black sticky top-0 z-50">
@@ -10,11 +15,13 @@ const Navbar = () => {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <div className="text-base font-bold">
-            <img
-              src="https://res.cloudinary.com/db5yniogx/image/upload/v1735327489/shantibarilogocloud_a8h82d.png"
-              alt="Shantibari Logo"
-              className="w-16 h-auto" // Adjusted logo size
-            />
+            <NavLink to="/" onClick={closeMenu}>
+              <img
+                src="https://res.cloudinary.com/db5yniogx/image/upload/v1735327489/shantibarilogocloud_a8h82d.png"
+                alt="Shantibari Logo"
+                className="w-16 h-auto cursor-pointer"
+              />
+            </NavLink>
           </div>
 
           {/* Mobile Menu Button */}
@@ -56,7 +63,7 @@ const Navbar = () => {
             </NavLink>
             <NavLink to="/gallery-frida-kahlo" className="hover:text-gray-400">
               Gallery Frida Kahlo
-            </NavLink> {/* Updated to Gallery Frida Kahlo */}
+            </NavLink>
             <NavLink to="/contact" className="hover:text-gray-400">
               Contact Us
             </NavLink>
@@ -86,31 +93,35 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {isMenuOpen && (
         <div className="lg:hidden px-4 py-2 space-y-4 bg-white">
-          <NavLink to="/" className="block text-black text-sm">
+          <NavLink to="/" onClick={closeMenu} className="block text-black text-sm">
             Home
           </NavLink>
-          <NavLink to="/about" className="block text-black text-sm">
+          <NavLink to="/about" onClick={closeMenu} className="block text-black text-sm">
             About Us
           </NavLink>
-          <NavLink to="/services" className="block text-black text-sm">
+          <NavLink to="/services" onClick={closeMenu} className="block text-black text-sm">
             Services
           </NavLink>
-          <NavLink to="/events" className="block text-black text-sm">
+          <NavLink to="/events" onClick={closeMenu} className="block text-black text-sm">
             Events
           </NavLink>
-          <NavLink to="/gallery-frida-kahlo" className="block text-black text-sm">
+          <NavLink
+            to="/gallery-frida-kahlo"
+            onClick={closeMenu}
+            className="block text-black text-sm"
+          >
             Gallery Frida Kahlo
-          </NavLink> {/* Updated to Gallery Frida Kahlo */}
-          <NavLink to="/contact" className="block text-black text-sm">
+          </NavLink>
+          <NavLink to="/contact" onClick={closeMenu} className="block text-black text-sm">
             Contact Us
           </NavLink>
-          <NavLink to="/audio-visual" className="block text-black text-sm">
+          <NavLink to="/audio-visual" onClick={closeMenu} className="block text-black text-sm">
             Audio Visual
           </NavLink>
-          <NavLink to="/media-coverage" className="block text-black text-sm">
+          <NavLink to="/media-coverage" onClick={closeMenu} className="block text-black text-sm">
             Media Coverage
           </NavLink>
-          <NavLink to="/brochure" className="block text-black text-sm">
+          <NavLink to="/brochure" onClick={closeMenu} className="block text-black text-sm">
             Download Brochure
           </NavLink>
           <div className="mt-4">
