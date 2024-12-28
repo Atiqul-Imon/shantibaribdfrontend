@@ -74,7 +74,7 @@ const Navbar = () => {
           {/* Call Us Button */}
           <div className="hidden lg:block">
             <a
-              href="tel:+1234567890"
+              href="tel:+8801325167271"
               className="bg-green-500 text-white px-6 py-2 rounded-full hover:bg-green-400"
             >
               Call Us
