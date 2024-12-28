@@ -20,17 +20,17 @@ function OurLawyers() {
   const lawyers = [
     { 
       name: 'Adv. Nahid Shams', 
-      description: 'Nahid Shams is a lawyer and human rights activist. She completed her LLB and LLM from Rajshahi University. She started working on legal rights for all classes of women in the country. For fifteen years, she worked at the human rights organization – Ain O Salish Kendra, later she joined the Manobadhikar Songskriti Foundation.',
+      description: '',
       imgSrc: 'https://res.cloudinary.com/db5yniogx/image/upload/v1735313364/Nahidshamscloud_x2uoyr.png'
     },
     { 
       name: 'Adv. Fahriya Ferdous', 
-      description: 'On completion of her LL.B. (Hons.) in 2009 she joined the most prestigious law firm in the country “Ruhul Quddus & Jurist”, headed by Mr. Md. Ruhul Quddus, Barrister-at-Law, Advocate, Supreme Court of Bangladesh. Ms. Ferdous devoted herself to legal practice after being enrolled as an Advocate in 2010.',
+      description: '',
       imgSrc: 'https://res.cloudinary.com/db5yniogx/image/upload/v1735314212/Adv-Fahriya-Ferdousecloud_sk71zm.jpg'
     },
     { 
       name: 'Adv. Farhana Afroze', 
-      description: 'Farhana Afroze holds both an LLB and an LLM from Rajshahi University. She commenced her legal career at Ain O Salish Kendra (ASK), where she served as a lawyer in the Legal Unit for 12 years. Subsequently, she held the position of Assistant Attorney General for Bangladesh. Currently, she specializes in criminal, civil, and family law matters.',
+      description: '',
       imgSrc: 'https://res.cloudinary.com/db5yniogx/image/upload/v1735314289/advfarhanaafrozecloud_esawnx.jpg'
     }
   ]
