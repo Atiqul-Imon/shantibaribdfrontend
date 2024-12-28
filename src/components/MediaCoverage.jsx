@@ -4,37 +4,37 @@ function MediaCoverage() {
   // Media coverage data
   const mediaCoverageData = [
     {
-      image: 'https://res-console.cloudinary.com/db5yniogx/thumbnails/v1/image/upload/v1735379739/c2hhbnRpYmFyaW1lZGlhY2xvdWRfbDE1bTBj/template_primary/Y19maWxsLHdfMzAwLGhfMzAw',
+      image: 'https://images.prothomalo.com/prothomalo-bangla%2F2024-06%2F85ea8f34-6a25-466b-8ce5-f5082d518756%2Fdeclutter1.jpg?rect=0%2C0%2C780%2C1040&auto=format%2Ccompress&fmt=webp&format=webp&w=1000&dpr=1.0',
       title: `শাড়ি ও গয়নার সম্ভারে শান্তিবাড়ির 'ডিক্লাটার মেলা'`,
       media: 'haal.fashion',
       link: 'https://www.haal.fashion/arrangement/fair/8a83xf1583'
     },
     {
-      image: 'https://res-console.cloudinary.com/db5yniogx/thumbnails/v1/image/upload/v1735381507/TWVkaWFjb3ZlcmFnZWNsb3VkX3loZmRkZQ==/drilldown',
+      image: 'https://images.prothomalo.com/prothomalo-bangla%2F2024-05%2Ff2510844-269e-4128-ac3c-53bf2df2aab0%2FWhatsApp_Image_2024_05_23_at_5_43_36_PM__1_.jpeg?rect=137%2C0%2C407%2C542&auto=format%2Ccompress&fmt=webp&format=webp&w=1000&dpr=1.0',
       title: `শান্তিবাড়িতে অনুষ্ঠিত হতে যাচ্ছে ডিক্লাটার মেলা`,
       media: 'haal.fashion',
       link: 'https://www.haal.fashion/arrangement/haal-khobor/vrcxxg4mkc'
     },
     {
-      image: 'https://res-console.cloudinary.com/db5yniogx/thumbnails/v1/image/upload/v1735381653/bWVkaWFjb3ZlcmFnZWNsb3VkNF9jZHZmZm0=/drilldown',
+      image: 'https://www.bbarta24.net/assets/news_photos/2024/03/09/image-262478-1709986550.jpg',
       title: `শান্তিবাড়িতে তিনদিনব্যাপী চিত্রকর্ম প্রদর্শনী`,
       media: 'bbarta24',
       link: 'https://www.bbarta24.net/others/262478'
     }, 
     {
-    image: 'https://res-console.cloudinary.com/db5yniogx/thumbnails/v1/image/upload/v1735381818/bWVkaWFjb3ZlcmFnZWNsb3VkNV9maHRrb3k=/drilldown', 
+    image: 'https://www.shokalshondha.com/wp-content/uploads/elementor/thumbs/423735863_1043731797381864_2974919115374127116_n-ql01p93utdd5m6yurcdloz1e5za1soaqnk90oyoljs.jpg', 
     title: `নারীর জন্য শান্তিবাড়িতে প্রদর্শনী`, 
     media: 'Shokalshondha',
     link: 'https://www.shokalshondha.com/painting-exhibition-for-women-by-women/'
 },
 {
-    image: 'https://res-console.cloudinary.com/db5yniogx/thumbnails/v1/image/upload/v1735382168/bWVkaWFjb3ZlcmFnZWNsb3VkNl9pdWNwcnM=/drilldown', 
+    image: 'https://images.prothomalo.com/prothomalo-bangla%2F2023-07%2F0c785e91-e242-47f6-b812-b70c13bbe6a3%2Fd562787f-0baa-4115-bed6-2097dfe9a5a6.jpeg?auto=format%2Ccompress&fmt=webp&format=webp&w=640&dpr=1.5', 
     title: `শেষ হলো ভালো থাকার বর্ণাঢ্য উৎসব`, 
     media: 'Prothom-alo',
     link: 'https://www.prothomalo.com/bangladesh/capital/jrpp6xr7n8'
 }, 
 {
-    image: 'https://res-console.cloudinary.com/db5yniogx/thumbnails/v1/image/upload/v1735382300/bWVkaWFjb3ZlcmFnZWNsb3VkN192aWd5MWE=/drilldown', 
+    image: 'https://images.prothomalo.com/prothomalo-bangla%2F2023-07%2Fe7e77150-59c2-450c-92fc-594db957fa43%2Fshantib_2.jpg?rect=0%2C0%2C732%2C976&auto=format%2Ccompress&fmt=webp&format=webp&w=1000&dpr=1.0', 
     title: `শান্তিবাড়ির ‘ভালো থাকার উৎসব’`, 
     media: 'haal.fashion',
     link: 'https://www.haal.fashion/fashion/wb4icmgy9v'
@@ -89,7 +89,7 @@ function MediaCoverage() {
   return (
     <div className="w-full bg-gray-100">
       {/* Hero Image */}
-      <div className="w-full h-64 bg-cover bg-center" style={{ backgroundImage: 'url(https://res-console.cloudinary.com/db5yniogx/thumbnails/v1/image/upload/v1735381653/bWVkaWFjb3ZlcmFnZWNsb3VkNF9jZHZmZm0=/drilldown)' }}>
+      <div className="w-full h-64 bg-cover bg-center" style={{ backgroundImage: 'url(https://res.cloudinary.com/db5yniogx/image/upload/v1735381653/mediacoveragecloud4_cdvffm.jpg)' }}>
         <div className="w-full h-full flex items-center justify-center bg-black bg-opacity-50">
           <h1 className="text-white text-4xl font-bold">Media Coverage</h1>
         </div>

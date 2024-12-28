@@ -7,7 +7,8 @@ function EventDetails() {
         {/* Event Image */}
         <div className="relative">
           <img
-            src="https://res-console.cloudinary.com/db5yniogx/thumbnails/v1/image/upload/v1735391182/dmFsb3RoYWthcnV0c29iY2xvdWRfeGFwampp/drilldown"
+            src="https://res.cloudinary.com/db5yniogx/image/upload/v1735391182/valothakarutsobcloud_xapjji.jpg"
+            
             alt="Event Image"
             className="w-full h-auto object-contain rounded-lg shadow-lg"
           />
