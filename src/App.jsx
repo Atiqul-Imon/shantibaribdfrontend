@@ -20,6 +20,8 @@ import EventDetails from "./components/Eventdetails";
 import MediaCoverage from "./components/MediaCoverage";
 import FridaKahloGallery from "./components/FridaKahloGallery";
 import Footer from "./components/Footer";
+import LawyerDetails from "./components/LawyerDetails";
+import PsychologistAndPsychiatristDetail from "./components/PsychologistAndPsychiatristDetailPage";
 
 // Define Home Page Layout
 function HomePage() {
@@ -62,6 +64,10 @@ function App() {
         <Route path="/brochure" element={<PsychiatristPsychologist />} />
         <Route path="/media-coverage" element={<MediaCoverage />} />
         <Route path="/gallery-frida-kahlo" element={<FridaKahloGallery />} />
+        <Route path="/" element={<OurLawyers/>}/>
+        <Route path="/lawyer/:id" element={<LawyerDetails/>}/>
+        <Route path="/" element={<PsychiatristPsychologist />} />
+        <Route path="/details/:id" element={<PsychologistAndPsychiatristDetail />} />
       </Routes>
       <Footer />
     </Router>
