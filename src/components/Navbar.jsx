@@ -15,13 +15,20 @@ const Navbar = () => {
         <div className="flex justify-between items-center py-6">
           {/* Logo */}
           <div className="text-base font-bold">
-            <NavLink to="/" onClick={closeMenu}>
-              <img
-                src="https://res.cloudinary.com/db5yniogx/image/upload/v1735327489/shantibarilogocloud_a8h82d.png"
-                alt="Shantibari Logo"
-                className="w-28 h-auto cursor-pointer"
-              />
-            </NavLink>
+          <NavLink
+  to="/"
+  onClick={() => {
+    closeMenu();
+    window.scrollTo({ top: 0, behavior: "smooth" }); // Scroll to top
+  }}
+>
+  <img
+    src="https://res.cloudinary.com/db5yniogx/image/upload/v1735327489/shantibarilogocloud_a8h82d.png"
+    alt="Shantibari Logo"
+    className="w-28 h-auto cursor-pointer"
+  />
+</NavLink>
+
           </div>
 
           {/* Mobile Menu Button */}
