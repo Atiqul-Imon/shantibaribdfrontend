@@ -32,7 +32,7 @@ function OurLawyers() {
       id: 1,
       name: 'Adv. Nahid Shams', 
       description: '',
-      imgSrc: 'https://res.cloudinary.com/db5yniogx/image/upload/v1735313364/Nahidshamscloud_x2uoyr.png'
+      imgSrc: 'https://res.cloudinary.com/db5yniogx/image/upload/v1735494831/nahidshamsshantibaricloud_wqbzwp.jpg'
     },
     { 
       id: 2,

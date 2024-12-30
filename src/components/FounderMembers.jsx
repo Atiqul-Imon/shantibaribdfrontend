@@ -6,7 +6,7 @@ function FounderMembers() {
   const members = [
     { id: 1, name: 'Sharmin Shams', title: 'Executive Director', imgSrc: 'https://res.cloudinary.com/db5yniogx/image/upload/v1735313071/Sharmin-Shamscloud_z4555l.webp', description: '' },
     { id: 2, name: 'Shumee Shahabuddin', title: 'Director (Operations)', imgSrc: 'https://res.cloudinary.com/db5yniogx/image/upload/v1735313239/Shumee-Shahabuddincloud_aukjp1.webp', description: '' },
-    { id: 3, name: 'Adv. Nahid Shams', title: 'Director (Legal Services)', imgSrc: 'https://res.cloudinary.com/db5yniogx/image/upload/v1735313364/Nahidshamscloud_x2uoyr.png', description: '' },
+    { id: 3, name: 'Adv. Nahid Shams', title: 'Director (Legal Services)', imgSrc: 'https://res.cloudinary.com/db5yniogx/image/upload/t_Media Coverage/v1735494831/nahidshamsshantibaricloud_wqbzwp.jpg', description: '' },
     { id: 4, name: 'Kishowar Zabin', title: 'Director', imgSrc: 'https://res.cloudinary.com/db5yniogx/image/upload/v1735313767/Kishowar-Zabincloud_vhcbea.webp', description: '' },
     { id: 5, name: 'Aparajita Gowswami', title: 'Director', imgSrc: 'https://res.cloudinary.com/db5yniogx/image/upload/v1735313881/aparajitagowsamicloud_ewbe7f.png', description: '' }
   ];
