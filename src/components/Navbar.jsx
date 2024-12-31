@@ -133,7 +133,7 @@ const Navbar = () => {
             Contact Us
           </NavLink>
           <NavLink
-            to="/audio-visual"
+            to="/audiovisual"
             onClick={closeMenu}
             className="block text-black text-lg text-center py-2 hover:text-gray-400"
           >
