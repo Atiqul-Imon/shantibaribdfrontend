@@ -11,7 +11,11 @@ const lawyerData = {
   },
   2: {
     name: "Adv. Fahriya Ferdous",
-    description: "",
+    description: `Fahriya Ferdous is a distinguished Advocate at the Supreme Court of Bangladesh. Following the completion of her academic studies in 2009, she commenced her legal career at one of the most esteemed law firms in the country, Ruhul Quddus & Jurist. Under the mentorship of Mr. Md. Ruhul Quddus, Barrister-at-Law and Senior Advocate of the Supreme Court of Bangladesh, Ms. Ferdous honed her expertise and officially enrolled as an Advocate in 2010.
+
+Throughout her career, Ms. Ferdous has demonstrated unwavering dedication to the legal profession, contributing to numerous nationally significant cases that have garnered media coverage across the country. Her areas of practice encompass a broad spectrum of legal fields, including criminal law, VAT and customs, company law, family law, and constitutional matters. She also possesses extensive experience in legal documentation, drafting, and litigation.
+
+In addition to her legal practice, Ms. Ferdous has collaborated with non-governmental organizations (NGOs), international non-governmental organizations (INGOs), and both national and international organizations, further enriching her professional portfolio and showcasing her versatile legal expertise.`,
     imgSrc:
       "https://res.cloudinary.com/db5yniogx/image/upload/v1735314212/Adv-Fahriya-Ferdousecloud_sk71zm.jpg",
   },
@@ -34,16 +38,22 @@ function LawyerDetails() {
   }
 
   return (
-    <div className="flex flex-col items-center py-12 bg-gray-200">
-      <img
-        className="h-60 w-60 object-cover rounded-full border-gray-300"
-        src={lawyer.imgSrc}
-        alt={lawyer.name}
-      />
-      <h1 className="text-3xl font-bold mt-6 font-playfair">{lawyer.name}</h1>
-      <p className="text-lg text-gray-600 mt-4 max-w-2xl text-center">
-        {lawyer.description}
-      </p>
+    <div className="flex flex-col items-center py-12 bg-gray-100 min-h-screen">
+      <div className="bg-white rounded-lg shadow-lg overflow-hidden max-w-3xl w-full p-6">
+        <div className="flex flex-col items-center">
+          <img
+            className="h-60 w-60 object-cover rounded-full border-4 border-red-500 shadow-lg"
+            src={lawyer.imgSrc}
+            alt={lawyer.name}
+          />
+          <h1 className="text-4xl font-bold mt-6 font-playfair text-gray-800">
+            {lawyer.name}
+          </h1>
+          <p className="text-lg text-gray-600 mt-4 text-center leading-relaxed">
+            {lawyer.description}
+          </p>
+        </div>
+      </div>
     </div>
   );
 }
