@@ -1,31 +1,66 @@
-import React from 'react';
-import { useParams } from 'react-router-dom';
+import React from "react";
+import { useParams } from "react-router-dom";
 
 const data = {
   1: {
-    name: 'Dr. Helal Uddin Ahmed',
-    title: 'Senior Psychiatrist and Consultant',
-    description: 'Dr. Helal Uddin Ahmed has extensive experience in psychiatry and is a renowned consultant in the field. He has treated thousands of patients with mental health issues.',
-    imgSrc: 'https://res.cloudinary.com/db5yniogx/image/upload/v1735317397/drhelalcloud_fvdddg.jpg'
+    name: "Dr. Helal Uddin Ahmed",
+    title: "Senior Psychiatrist and Consultant",
+    description:
+      `MBBS, MD (Psychiatry)
+Associate Professor - Child Adolescent & Family Psychiatry
+Department - Psychiatry and Mental Health
+ Graduated on 1999 from Chittagong Medical College and completed MD (Psychiatry) on 2011 from Bangabandhu Sheikh Mujib Medical University, Dhaka.
+Received fellowship training on Child Psychiatry from ‘Fondazione Child’, Italy and trained on ‘Autism and Neurodevelopmental disabilities’ from South Korea. He also received fellowship from Japanese Society of Psychiatry and Neurology (JSPN-Fellow) on 2010, Indo-Global Psychiatric Initiative fellowship (IGPI Fellow) on 2011 and ‘Y-Mind Fellowship’ from Sao Paulo-Brazil on 2013. Dr. Ahmed worked as a Temporary Advisor of WHO Bangladesh, in the field of mental health and substance abuse for a short tenure on 2012. He is the Area Coordinator of Australasia region of Early Career Psychiatrists Council of WPA (World Psychiatric Association).
+He has 42 publications as author or co-author and presented 11 scientific papers in international conferences held in Bangladesh, Argentina, Japan, South Korea, Indonesia, India, Brazil, Italy and Spain.
+Dr. Ahmed has more than 200 popular write up on mental health issue, published in national daily and weekly newspapers. In 2013 He received “Prof. Hidayetul Islam Gold Medal Award” for research contribution and devotion in Psychiatry as a young psychiatrist of Bangladesh. Currently he is working as Associate Professor of Child Adolescent and Family Psychiatry in National Institute of Mental Health (NIMH), Dhaka, Bangladesh.
+`,
+    imgSrc:
+      "https://res.cloudinary.com/db5yniogx/image/upload/v1735317397/drhelalcloud_fvdddg.jpg",
   },
   2: {
-    name: 'Dr. Nasim Jahan',
-    title: 'Senior Psychiatrist and Consultant',
-    description: 'Dr. Nasim Jahan is a specialist in mental health treatments and therapies, focusing on evidence-based practices to ensure patient well-being.',
-    imgSrc: 'https://res.cloudinary.com/db5yniogx/image/upload/v1735317673/Nasimjahancloud_jl62lq.png'
+    name: "Dr. Nasim Jahan",
+    title: "Senior Psychiatrist and Consultant",
+    description:
+      `Dr. Nasim Jahan is a Psychiatrist in Dhaka. Her qualification is MBBS, MCPS, FCPS (Psychiatry). Mental Diseases, Brain Disorder & Drug Addiction Specialist. She is a Assistant Professor, Psychiatry at Birdem General Hospital & Ibrahim Medical College.`,
+    imgSrc:
+      "https://res.cloudinary.com/db5yniogx/image/upload/v1735317673/Nasimjahancloud_jl62lq.png",
   },
   3: {
-    name: 'Razia Sultana Rima',
-    title: 'Psycho-social Counselor and Therapist',
-    description: 'Razia Sultana Rima is a skilled counselor with years of experience in providing therapy for individuals dealing with psychological issues.',
-    imgSrc: 'https://res.cloudinary.com/db5yniogx/image/upload/v1735317558/Raziasultanarimacloud_vqmaug.png'
+    name: "Razia Sultana Rima",
+    title: "Psycho-social Counselor and Therapist",
+    description: (
+      <ul className="list-disc list-inside text-left text-gray-700 space-y-2 mt-4">
+        <li>Highly regarded psychologist in Bangladesh with over 15 years of experience in Research and Counseling.</li>
+        <li>Accredited Psychologist from GTCO, India, and Certified NLP practitioner from GTCO & IAF Chennai, Tamil Nadu, India.</li>
+        <li>Certified International Soft Skill Trainer from Emocare, India.</li>
+        <li>Specialized Master's Degree in Clinical Social Work from the University of Dhaka, second position in class.</li>
+        <li>MSC in Psychology from Jagannath University of Dhaka, First Class First.</li>
+        <li>Diploma in Dynamic Counseling & Coaching Therapy from Emocare, Chennai, India.</li>
+        <li>Conducted research on "Psychosocial Consequences and Mental Health Status Among Female Sex Workers in Dauladia, Bangladesh."</li>
+        <li>Field practicum at the National Institute of Mental Health and Hospital, Dhaka.</li>
+        <li>Currently working for Shantibari as a Consultant Psychologist, specializing in Adolescent and Adult Therapy.</li>
+      </ul>
+    ),
+    imgSrc:
+      "https://res.cloudinary.com/db5yniogx/image/upload/v1735317558/Raziasultanarimacloud_vqmaug.png",
   },
   4: {
-    name: 'Arpita Das',
-    title: 'Psycho-social Counselor and Therapist',
-    description: 'Arpita Das has a passion for helping people through counseling and therapy, focusing on improving mental health and resilience.',
-    imgSrc: 'https://res.cloudinary.com/db5yniogx/image/upload/v1735317781/Arpitadascloud_gdnt8q.png'
-  }
+    name: "Arpita Das",
+    title: "Psycho-social Counselor and Therapist",
+    description: (
+      <ul className="list-disc list-inside text-left text-gray-700 space-y-2 mt-4">
+        <li>Dedicated psychosocial counselor and therapist at Shantibari.</li>
+        <li>Specializes in both online and offline individual sessions.</li>
+        <li>Applies Transactional Analysis (TA) theory as a counseling tool.</li>
+        <li>400 practice hours in TA with a diploma from Bangalore, South India.</li>
+        <li>Expertise in communication issues, relationship challenges, and marital conflicts.</li>
+        <li>Holds a Master's degree in Psychology from Dhaka University.</li>
+        <li>Uses play therapy and reinforcement theory for child psychology.</li>
+      </ul>
+    ),
+    imgSrc:
+      "https://res.cloudinary.com/db5yniogx/image/upload/v1735317781/Arpitadascloud_gdnt8q.png",
+  },
 };
 
 function PsychologistAndPsychiatristDetail() {
@@ -33,20 +68,24 @@ function PsychologistAndPsychiatristDetail() {
   const person = data[id];
 
   if (!person) {
-    return <h2 className="text-center text-red-500 mt-10">Person not found!</h2>;
+    return (
+      <h2 className="text-center text-red-500 mt-10">Person not found!</h2>
+    );
   }
 
   return (
-    <div className="min-h-screen flex justify-center items-center bg-gray-100 py-12 px-4">
-      <div className="max-w-2xl bg-white rounded-lg shadow-xl p-8 text-center">
-        <img 
-          src={person.imgSrc} 
-          alt={person.name} 
-          className="w-48 h-48 object-cover rounded-full mx-auto mb-6"
+    <div className="min-h-screen flex justify-center items-center bg-gray-50 py-12 px-4">
+      <div className="max-w-3xl bg-white rounded-lg shadow-xl p-8 text-center">
+        <img
+          src={person.imgSrc}
+          alt={person.name}
+          className="w-48 h-48 object-cover rounded-full mx-auto mb-6 border-4 border-red-500"
         />
-        <h1 className="text-2xl font-bold font-playfair">{person.name}</h1>
-        <h2 className="text-lg text-gray-600 font-roboto">{person.title}</h2>
-        <p className="text-gray-700 mt-4 text-sm font-roboto">{person.description}</p>
+        <h1 className="text-3xl font-bold text-gray-800 font-playfair mb-2">{person.name}</h1>
+        <h2 className="text-lg text-red-600 font-semibold mb-4 font-roboto">{person.title}</h2>
+        <div className="text-gray-700 text-sm font-roboto leading-relaxed">
+          {person.description}
+        </div>
       </div>
     </div>
   );

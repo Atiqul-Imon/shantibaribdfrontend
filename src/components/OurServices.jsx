@@ -7,35 +7,35 @@ function OurServices() {
       title: "Mental Health Support",
       description:
         "Provides psycho-social counseling and therapy, psychiatric treatment, yoga sessions, etc. by specialized professionals, both offline and online.",
-      link: "#",
+      link: "/services/mental-health-support", // Updated link
       icon: <FaBrain size={40} />,
     },
     {
       title: "Legal Advice and Services",
       description:
         "Serves legal support to women, especially in family issues in the comfortable environment of Shantibari.",
-      link: "#",
+      link: "/services/legal-advice-and-services", // Updated link
       icon: <FaGavel size={40} />,
     },
     {
       title: "Entrepreneurial Support Program",
       description:
         "Provides a suitable platform, mentorship, and resources to women entrepreneurs to start and grow their businesses.",
-      link: "#",
+      link: "/services/entrepreneurial-support", // Updated link
       icon: <FaChalkboardTeacher size={40} />,
     },
     {
       title: "Cultural Development Program",
       description:
         "Encourage and nurture creativity and innovation among women by organizing events on different forms of artistic expression.",
-      link: "#",
+      link: "/services/cultural-development", // Updated link
       icon: <FaPaintBrush size={40} />,
     },
     {
       title: "Parenting Support",
       description:
         "For women, one of the additional services at Shantibari is Child Development and Parenting Consultation.",
-      link: "#",
+      link: "/services/parenting-support", // Updated link
       icon: <FaChild size={40} />,
     },
   ];
