@@ -74,7 +74,7 @@ const Navbar = () => {
             <NavLink to="/contact-us" className="hover:text-gray-400">
               Contact Us
             </NavLink>
-            <NavLink to="/audio-visual" className="hover:text-gray-400">
+            <NavLink to="/audiovisual" className="hover:text-gray-400">
               Audio Visual
             </NavLink>
             <NavLink to="/media-coverage" className="hover:text-gray-400">

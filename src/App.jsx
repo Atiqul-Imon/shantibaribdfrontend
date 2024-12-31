@@ -24,6 +24,7 @@ import LawyerDetails from "./components/LawyerDetails";
 import PsychologistAndPsychiatristDetail from "./components/PsychologistAndPsychiatristDetailPage";
 import ServiceDetail from "./components/ServiceDetailPage";
 import ContactUs from "./components/ContactUs";
+import AudioVisual from "./components/AudioVisual";
 
 // Define Home Page Layout
 function HomePage() {
@@ -72,6 +73,7 @@ function App() {
         <Route path="/details/:id" element={<PsychologistAndPsychiatristDetail />} />
         <Route path="/services/:serviceId" element={<ServiceDetail />} />
         <Route path= "/contact-us" element={<ContactUs />} />
+        <Route path="/audiovisual" element={<AudioVisual/>} />
 
       </Routes>
       <Footer />
