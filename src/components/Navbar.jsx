@@ -71,7 +71,7 @@ const Navbar = () => {
             <NavLink to="/gallery-frida-kahlo" className="hover:text-gray-400">
               Gallery Frida Kahlo
             </NavLink>
-            <NavLink to="/contact" className="hover:text-gray-400">
+            <NavLink to="/contact-us" className="hover:text-gray-400">
               Contact Us
             </NavLink>
             <NavLink to="/audio-visual" className="hover:text-gray-400">
@@ -126,7 +126,7 @@ const Navbar = () => {
             Gallery Frida Kahlo
           </NavLink>
           <NavLink
-            to="/contact"
+            to="/contact-us"
             onClick={closeMenu}
             className="block text-black text-lg text-center py-2 hover:text-gray-400"
           >
