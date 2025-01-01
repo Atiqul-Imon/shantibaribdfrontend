@@ -98,7 +98,7 @@ const Navbar = () => {
             Home
           </NavLink>
           <NavLink
-            to="/about"
+            to="/about-us"
             onClick={closeMenu}
             className="block text-black text-lg text-center py-2 hover:text-gray-400"
           >
