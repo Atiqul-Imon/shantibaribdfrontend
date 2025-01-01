@@ -26,6 +26,7 @@ import ServiceDetail from "./components/ServiceDetailPage";
 import ContactUs from "./components/ContactUs";
 import AudioVisual from "./components/AudioVisual";
 import EntrepreneurialSupportProgram from "./components/EntrepreneurialSupportProgram";
+import CulturalDevelopment from "./components/CulturalDevelopment";
 
 // Define Home Page Layout
 function HomePage() {
@@ -63,8 +64,9 @@ function App() {
 
         {/* Services Routes */}
         <Route path="/services" element={<OurServices />} />
-        {/* <Route path="/services/:serviceId" element={<ServiceDetail />} /> */}
+        
         <Route path="/services/:serviceId" element={<EntrepreneurialSupportProgram/>} />
+        <Route path="/services/cultural-development-program" element={<CulturalDevelopment />} />
        
         
 
@@ -79,7 +81,7 @@ function App() {
         {/* Media and Galleries */}
         <Route path="/media-coverage" element={<MediaCoverage />} />
         <Route path="/gallery-frida-kahlo" element={<FridaKahloGallery />} />
-        <Route path="/audio-visual" element={<AudioVisual />} />
+        <Route path="/audiovisual" element={<AudioVisual />} />
 
         {/* About Us */}
         <Route path="/about-us" element={<AboutUs />} />
