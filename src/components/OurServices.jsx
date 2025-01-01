@@ -1,5 +1,12 @@
 import React from "react";
-import { FaBrain, FaGavel, FaChalkboardTeacher, FaPaintBrush, FaChild } from "react-icons/fa";
+import {
+  FaBrain,
+  FaGavel,
+  FaChalkboardTeacher,
+  FaPaintBrush,
+  FaChild,
+} from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function OurServices() {
   const services = [
@@ -21,14 +28,14 @@ function OurServices() {
       title: "Entrepreneurial Support Program",
       description:
         "Provides a suitable platform, mentorship, and resources to women entrepreneurs to start and grow their businesses.",
-      link: "/services/entrepreneurial-support", // Updated link
+      link: "/services/entrepreneurial-support-program", // Updated link
       icon: <FaChalkboardTeacher size={40} />,
     },
     {
       title: "Cultural Development Program",
       description:
         "Encourage and nurture creativity and innovation among women by organizing events on different forms of artistic expression.",
-      link: "/services/cultural-development", // Updated link
+      link: "/services/cultural-development-program", // Updated link
       icon: <FaPaintBrush size={40} />,
     },
     {
@@ -53,19 +60,19 @@ function OurServices() {
               key={index}
               className={`flex-1 min-w-[280px] max-w-[380px] p-6 bg-white rounded-lg shadow-lg`}
             >
-              <div className="flex justify-center mb-4">
-                {service.icon}
-              </div>
+              <div className="flex justify-center mb-4">{service.icon}</div>
               <h3 className="text-2xl font-semibold mb-4 font-roboto text-gray-800">
                 {service.title}
               </h3>
-              <p className="text-gray-600 mb-4 font-roboto">{service.description}</p>
-              <a
-                href={service.link}
+              <p className="text-gray-600 mb-4 font-roboto">
+                {service.description}
+              </p>
+              <Link
+                to={service.link}
                 className="inline-block px-4 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-500 transition-all duration-300 ease-in-out"
               >
                 Visit Here
-              </a>
+              </Link>
             </div>
           ))}
         </div>

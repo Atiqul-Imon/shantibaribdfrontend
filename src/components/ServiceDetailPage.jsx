@@ -38,6 +38,64 @@ const serviceDetails = {
       },
     ],
   },
+
+  "entrepreneurial-support-program": {
+    title: "Legal Advice and Services",
+    heroImage: "legal-advice-hero.jpg",
+    sections: [
+      {
+        heading: "Expert Legal Advice",
+        content:
+          "We offer legal support for family and personal issues, ensuring a safe environment.",
+        image: "legal-support.jpg",
+      },
+      {
+        heading: "Document Preparation",
+        content:
+          "We help prepare legal documents and forms required for various cases.",
+        image: "documents.jpg",
+      },
+    ],
+  },
+
+  "cultural-development-program": {
+    title: "Legal Advice and Services",
+    heroImage: "legal-advice-hero.jpg",
+    sections: [
+      {
+        heading: "Expert Legal Advice",
+        content:
+          "We offer legal support for family and personal issues, ensuring a safe environment.",
+        image: "legal-support.jpg",
+      },
+      {
+        heading: "Document Preparation",
+        content:
+          "We help prepare legal documents and forms required for various cases.",
+        image: "documents.jpg",
+      },
+    ],
+  },
+
+
+  "parenting-support": {
+    title: "Legal Advice and Services",
+    heroImage: "legal-advice-hero.jpg",
+    sections: [
+      {
+        heading: "Expert Legal Advice",
+        content:
+          "We offer legal support for family and personal issues, ensuring a safe environment.",
+        image: "legal-support.jpg",
+      },
+      {
+        heading: "Document Preparation",
+        content:
+          "We help prepare legal documents and forms required for various cases.",
+        image: "documents.jpg",
+      },
+    ],
+  },
   // Add more service details here...
 };
 

@@ -5,9 +5,9 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import FounderMembers from "./components/FounderMembers";
-import FounderDetail from "./components/FounderProfileSharminShams"; // Founder Detail Page
+import FounderDetail from "./components/FounderProfileSharminShams";
 import OurAdvisors from "./components/OurAdvisors";
-import AdvisorDetail from "./components/AdvisorDetail"; // Advisor Detail Page
+import AdvisorDetail from "./components/AdvisorDetail";
 import OurLawyers from "./components/OurLawyers";
 import PsychiatristPsychologist from "./components/Psychologist";
 import OurServices from "./components/OurServices";
@@ -25,6 +25,7 @@ import PsychologistAndPsychiatristDetail from "./components/PsychologistAndPsych
 import ServiceDetail from "./components/ServiceDetailPage";
 import ContactUs from "./components/ContactUs";
 import AudioVisual from "./components/AudioVisual";
+import EntrepreneurialSupportProgram from "./components/EntrepreneurialSupportProgram";
 
 // Define Home Page Layout
 function HomePage() {
@@ -36,7 +37,6 @@ function HomePage() {
       <OurLawyers />
       <PsychiatristPsychologist />
       <OurServices />
-      <EventDetails/>
       <OurTeam />
       <CharityMorganCafe />
       <PhotoGallery />
@@ -53,28 +53,36 @@ function App() {
         {/* Home Page */}
         <Route path="/" element={<HomePage />} />
 
-        {/* Dynamic Routes */}
-        <Route path="/founder/:id" element={<FounderDetail />} /> {/* Founder Detail */}
-        <Route path="/advisor/:id" element={<AdvisorDetail />} /> {/* Advisor Detail */}
+        {/* Founder and Advisor Routes */}
+        <Route path="/founder/:id" element={<FounderDetail />} />
+        <Route path="/advisor/:id" element={<AdvisorDetail />} />
 
-        {/* Static Pages */}
-        <Route path="/about" element={<AboutUs />} />
-        <Route path="/services" element={<OurServices />} />
+        {/* Event Routes */}
         <Route path="/events" element={<Event />} />
-        <Route path="/events/:id" element={<EventDetails />} /> {/* Event Details */}
-        <Route path="/contact" element={<OurTeam />} />
-        <Route path="/audio-visual" element={<OurLawyers />} />
-        <Route path="/brochure" element={<PsychiatristPsychologist />} />
+        <Route path="/events/:id" element={<EventDetails />} />
+
+        {/* Services Routes */}
+        <Route path="/services" element={<OurServices />} />
+        {/* <Route path="/services/:serviceId" element={<ServiceDetail />} /> */}
+        <Route path="/services/:serviceId" element={<EntrepreneurialSupportProgram/>} />
+       
+        
+
+        {/* Team and Contact */}
+        <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/team" element={<OurTeam />} />
+
+        {/* Lawyers and Psychologists */}
+        <Route path="/lawyer/:id" element={<LawyerDetails />} />
+        <Route path="/details/:id" element={<PsychologistAndPsychiatristDetail />} />
+
+        {/* Media and Galleries */}
         <Route path="/media-coverage" element={<MediaCoverage />} />
         <Route path="/gallery-frida-kahlo" element={<FridaKahloGallery />} />
-        <Route path="/" element={<OurLawyers/>}/>
-        <Route path="/lawyer/:id" element={<LawyerDetails/>}/>
-        <Route path="/" element={<PsychiatristPsychologist />} />
-        <Route path="/details/:id" element={<PsychologistAndPsychiatristDetail />} />
-        <Route path="/services/:serviceId" element={<ServiceDetail />} />
-        <Route path= "/contact-us" element={<ContactUs />} />
-        <Route path="/audiovisual" element={<AudioVisual/>} />
+        <Route path="/audio-visual" element={<AudioVisual />} />
 
+        {/* About Us */}
+        <Route path="/about-us" element={<AboutUs />} />
       </Routes>
       <Footer />
     </Router>
