@@ -29,7 +29,7 @@ const MentalHealthSupport = () => {
     <div>
       {/* Hero Section */}
       <div className="relative w-full h-[400px] bg-cover bg-center" style={{
-        backgroundImage: `url('https://via.placeholder.com/1200x400')`,
+        backgroundImage: `url('https://res.cloudinary.com/db5yniogx/image/upload/v1736272011/mentalhealthSupportHeroImagecloud_ywnd3h_i08dbd.jpg')`,
       }}>
         <div className="absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center">
           <h1 className="text-white text-4xl font-bold">Mental Health Support</h1>
