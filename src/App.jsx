@@ -27,6 +27,7 @@ import ContactUs from "./components/ContactUs";
 import AudioVisual from "./components/AudioVisual";
 import EntrepreneurialSupportProgram from "./components/EntrepreneurialSupportProgram";
 import CulturalDevelopment from "./components/CulturalDevelopment";
+import MentalHealthSupport from "./components/MentalHealthSupport";
 
 // Define Home Page Layout
 function HomePage() {
@@ -64,11 +65,19 @@ function App() {
 
         {/* Services Routes */}
         <Route path="/services" element={<OurServices />} />
-        
-        <Route path="/services/:serviceId" element={<EntrepreneurialSupportProgram/>} />
-        <Route path="/services/cultural-development-program" element={<CulturalDevelopment />} />
-       
-        
+
+        <Route
+          path="/services/:serviceId"
+          element={<EntrepreneurialSupportProgram />}
+        />
+        <Route
+          path="/services/cultural-development-program"
+          element={<CulturalDevelopment />}
+        />
+        <Route
+          path="/services/mental-health-support"
+          element={<MentalHealthSupport />}
+        />
 
         {/* Team and Contact */}
         <Route path="/contact-us" element={<ContactUs />} />
@@ -76,7 +85,10 @@ function App() {
 
         {/* Lawyers and Psychologists */}
         <Route path="/lawyer/:id" element={<LawyerDetails />} />
-        <Route path="/details/:id" element={<PsychologistAndPsychiatristDetail />} />
+        <Route
+          path="/details/:id"
+          element={<PsychologistAndPsychiatristDetail />}
+        />
 
         {/* Media and Galleries */}
         <Route path="/media-coverage" element={<MediaCoverage />} />
