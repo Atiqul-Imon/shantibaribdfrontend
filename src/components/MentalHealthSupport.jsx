@@ -37,11 +37,11 @@ const MentalHealthSupport = () => {
       </div>
 
       {/* Description Section */}
-      <div className="max-w-[1440px] mx-auto px-4 py-12">
-        <h2 className="text-3xl font-bold mb-6 text-gray-800">
+      <div className="max-w-[1440px] mx-auto px-4 py-12 bg-gray-50 rounded-lg shadow-lg mt-12">
+        <h2 className="text-3xl font-bold mb-6 text-center text-gray-800">
           About Mental Health Support
         </h2>
-        <p className="text-gray-600 text-lg leading-relaxed">
+        <p className="text-gray-600 text-lg leading-relaxed mb-6">
           Mental health support plays a crucial role in promoting overall
           well-being and addressing the challenges that individuals face in
           relation to their mental and emotional health. It encompasses a wide
@@ -58,6 +58,11 @@ const MentalHealthSupport = () => {
           communities about mental health helps to create a more empathetic and
           understanding society.
         </p>
+        <div className="bg-blue-50 border-l-4 border-blue-500 p-4 mt-8 rounded-md shadow-md">
+          <p className="text-blue-700 font-semibold">
+            If you're looking for more information or need assistance, feel free to reach out to us.
+          </p>
+        </div>
       </div>
 
       {/* Team Section */}
