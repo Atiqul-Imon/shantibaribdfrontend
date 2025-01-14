@@ -5,8 +5,7 @@ const data = {
   1: {
     name: "Dr. Helal Uddin Ahmed",
     title: "Senior Psychiatrist and Consultant",
-    description:
-      `MBBS, MD (Psychiatry)
+    description: `MBBS, MD (Psychiatry)
 Associate Professor - Child Adolescent & Family Psychiatry
 Department - Psychiatry and Mental Health
  Graduated on 1999 from Chittagong Medical College and completed MD (Psychiatry) on 2011 from Bangabandhu Sheikh Mujib Medical University, Dhaka.
@@ -20,8 +19,7 @@ Dr. Ahmed has more than 200 popular write up on mental health issue, published i
   2: {
     name: "Dr. Nasim Jahan",
     title: "Senior Psychiatrist and Consultant",
-    description:
-      `Dr. Nasim Jahan is a Psychiatrist in Dhaka. Her qualification is MBBS, MCPS, FCPS (Psychiatry). Mental Diseases, Brain Disorder & Drug Addiction Specialist. She is a Assistant Professor, Psychiatry at Birdem General Hospital & Ibrahim Medical College.`,
+    description: `Dr. Nasim Jahan is a Psychiatrist in Dhaka. Her qualification is MBBS, MCPS, FCPS (Psychiatry). Mental Diseases, Brain Disorder & Drug Addiction Specialist. She is a Assistant Professor, Psychiatry at Birdem General Hospital & Ibrahim Medical College.`,
     imgSrc:
       "https://res.cloudinary.com/db5yniogx/image/upload/v1735317673/Nasimjahancloud_jl62lq.png",
   },
@@ -30,15 +28,39 @@ Dr. Ahmed has more than 200 popular write up on mental health issue, published i
     title: "Psycho-social Counselor and Therapist",
     description: (
       <ul className="list-disc list-inside text-left text-gray-700 space-y-2 mt-4">
-        <li>Highly regarded psychologist in Bangladesh with over 15 years of experience in Research and Counseling.</li>
-        <li>Accredited Psychologist from GTCO, India, and Certified NLP practitioner from GTCO & IAF Chennai, Tamil Nadu, India.</li>
+        <li>
+          Highly regarded psychologist in Bangladesh with over 15 years of
+          experience in Research and Counseling.
+        </li>
+        <li>
+          Accredited Psychologist from GTCO, India, and Certified NLP
+          practitioner from GTCO & IAF Chennai, Tamil Nadu, India.
+        </li>
         <li>Certified International Soft Skill Trainer from Emocare, India.</li>
-        <li>Specialized Master's Degree in Clinical Social Work from the University of Dhaka, second position in class.</li>
-        <li>MSC in Psychology from Jagannath University of Dhaka, First Class First.</li>
-        <li>Diploma in Dynamic Counseling & Coaching Therapy from Emocare, Chennai, India.</li>
-        <li>Conducted research on "Psychosocial Consequences and Mental Health Status Among Female Sex Workers in Dauladia, Bangladesh."</li>
-        <li>Field practicum at the National Institute of Mental Health and Hospital, Dhaka.</li>
-        <li>Currently working for Shantibari as a Consultant Psychologist, specializing in Adolescent and Adult Therapy.</li>
+        <li>
+          Specialized Master's Degree in Clinical Social Work from the
+          University of Dhaka, second position in class.
+        </li>
+        <li>
+          MSC in Psychology from Jagannath University of Dhaka, First Class
+          First.
+        </li>
+        <li>
+          Diploma in Dynamic Counseling & Coaching Therapy from Emocare,
+          Chennai, India.
+        </li>
+        <li>
+          Conducted research on "Psychosocial Consequences and Mental Health
+          Status Among Female Sex Workers in Dauladia, Bangladesh."
+        </li>
+        <li>
+          Field practicum at the National Institute of Mental Health and
+          Hospital, Dhaka.
+        </li>
+        <li>
+          Currently working for Shantibari as a Consultant Psychologist,
+          specializing in Adolescent and Adult Therapy.
+        </li>
       </ul>
     ),
     imgSrc:
@@ -51,15 +73,60 @@ Dr. Ahmed has more than 200 popular write up on mental health issue, published i
       <ul className="list-disc list-inside text-left text-gray-700 space-y-2 mt-4">
         <li>Dedicated psychosocial counselor and therapist at Shantibari.</li>
         <li>Specializes in both online and offline individual sessions.</li>
-        <li>Applies Transactional Analysis (TA) theory as a counseling tool.</li>
-        <li>400 practice hours in TA with a diploma from Bangalore, South India.</li>
-        <li>Expertise in communication issues, relationship challenges, and marital conflicts.</li>
+        <li>
+          Applies Transactional Analysis (TA) theory as a counseling tool.
+        </li>
+        <li>
+          400 practice hours in TA with a diploma from Bangalore, South India.
+        </li>
+        <li>
+          Expertise in communication issues, relationship challenges, and
+          marital conflicts.
+        </li>
         <li>Holds a Master's degree in Psychology from Dhaka University.</li>
-        <li>Uses play therapy and reinforcement theory for child psychology.</li>
+        <li>
+          Uses play therapy and reinforcement theory for child psychology.
+        </li>
       </ul>
     ),
     imgSrc:
       "https://res.cloudinary.com/db5yniogx/image/upload/v1735317781/Arpitadascloud_gdnt8q.png",
+  },
+  5: {
+    name: "Tanzina Chowdhury",
+    title: "Educational and Counselling Psychologist",
+    description: (
+      <ul className="list-disc list-inside text-left text-gray-700 space-y-2 mt-4">
+        <li>
+          {" "}
+          Seasoned psychologist with over 15 years of experience since starting
+          her professional journey in 2009.
+        </li>
+        <li>
+          Holds an MPhil in Counselling Program (integrated 5 years program;
+          Malaysia), MPhil in Educational Psychology from the University of
+          Dhaka, and an MBA with a major in Human Resource Management from the
+          United International University.
+        </li>
+        <li>
+        Specializes in workplace and educational counseling, emphasizing client-centered assistance and empowerment.
+        </li>
+        <li>
+        Adheres to high standards of professional conduct and ethical principles.
+        </li>
+        <li>
+        Proficient in various counseling approaches, including SFBT, CBT, CTRT, Gestalt Therapy, Mindfulness Therapy, and Person-Centered Counseling.
+        </li>
+        <li>Focuses on Career Counseling and expanding expertise in bereavement and grief counseling.</li>
+        <li>
+        Versatile in working with clients from diverse backgrounds and age groups, including insight into parent-child relationship issues.
+        </li>
+        <li>Addresses a wide range of concerns, such as academic, personal, relationship issues, and career counseling.</li>
+        <li>A beacon of competence and empathy, contributing significantly to the well-being of those she serves.</li>
+      </ul>
+    ),
+    imgSrc:
+      "https://res.cloudinary.com/db5yniogx/image/upload/v1736852227/tanzinachoudhury01cloud_d92vrq.jpg",
   },
 };
 
@@ -81,8 +148,12 @@ function PsychologistAndPsychiatristDetail() {
           alt={person.name}
           className="w-48 h-48 object-cover rounded-full mx-auto mb-6 border-4 border-red-500"
         />
-        <h1 className="text-3xl font-bold text-gray-800 font-playfair mb-2">{person.name}</h1>
-        <h2 className="text-lg text-red-600 font-semibold mb-4 font-roboto">{person.title}</h2>
+        <h1 className="text-3xl font-bold text-gray-800 font-playfair mb-2">
+          {person.name}
+        </h1>
+        <h2 className="text-lg text-red-600 font-semibold mb-4 font-roboto">
+          {person.title}
+        </h2>
         <div className="text-gray-700 text-sm font-roboto leading-relaxed">
           {person.description}
         </div>

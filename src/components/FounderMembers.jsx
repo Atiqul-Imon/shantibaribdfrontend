@@ -13,7 +13,7 @@ function FounderMembers() {
 
   return (
     <div className='bg-gray-200 w-full py-12'>
-      <div className='max-w-[1440px] mx-auto px-4'>
+      <div className='max-w-[1480px] mx-auto px-4'>
         <h2 className='text-3xl font-bold text-center mb-8 font-playfair'>Founder Members</h2>
         <div className='flex flex-wrap justify-center gap-6'>
           {members.map((member) => (
