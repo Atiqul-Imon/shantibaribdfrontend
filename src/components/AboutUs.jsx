@@ -1,8 +1,21 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 
 const AboutUs = () => {
   return (
     <div>
+      {/* Helmet for SEO */}
+      <Helmet>
+        <title>About Us - Shantibari</title>
+        <meta name="description" content="Learn more about Shantibari, a women's organization dedicated to empowering women through education, advocacy, and support." />
+        <meta property="og:title" content="About Us - Shantibari" />
+        <meta property="og:description" content="Discover Shantibari's mission, vision, and impact in empowering women across Bangladesh." />
+        <meta property="og:image" content="https://res.cloudinary.com/db5yniogx/image/upload/v1735324366/ShantibariHeroimagecloud3_osmsd6.jpg" />
+        <meta property="og:url" content="https://www.shantibaribd.org/about-us" />
+        <meta property="og:type" content="website" />
+        <meta name="keywords" content="Shantibari, About Us, Women's Empowerment, Mission, Vision, Impact, Bangladesh" />
+      </Helmet>
+
       {/* Hero Section */}
       <section
         className="relative bg-cover bg-center h-[400px] rounded-lg shadow-lg overflow-hidden"
