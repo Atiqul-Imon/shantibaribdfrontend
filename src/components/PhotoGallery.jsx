@@ -1,7 +1,18 @@
-import React from 'react';
+import React, { useState, useRef } from 'react';
 
 function PhotoGallery() {
+  const [selectedImage, setSelectedImage] = useState(null); // State for the selected image
+  const sliderRef = useRef(null); // Ref for the thumbnail slider
+  const [startIndex, setStartIndex] = useState(0); // Index of the first image in the visible range
+
   const photos = [
+    'https://res.cloudinary.com/db5yniogx/image/upload/v1736883846/valothaka2_gzv8ln.jpg',
+    'https://res.cloudinary.com/db5yniogx/image/upload/v1736883835/valothaka1_pyeiua.jpg',
+    'https://res.cloudinary.com/db5yniogx/image/upload/v1736883728/valothakarutsob5_oaswl4.jpg',
+    'https://res.cloudinary.com/db5yniogx/image/upload/v1736883675/valothakarutsob4_w84lgi.jpg',
+    'https://res.cloudinary.com/db5yniogx/image/upload/v1736883567/valothakarutsob3_nuehl2.jpg',
+    'https://res.cloudinary.com/db5yniogx/image/upload/v1736883485/valothakarutsob2_o7cojb.jpg',
+    'https://res.cloudinary.com/db5yniogx/image/upload/v1736883347/valothakarutsob1_kewuqh.jpg',
     'https://res.cloudinary.com/db5yniogx/image/upload/v1735322517/shantibarigallerycloud1_xmazhq.jpg',
     'https://res.cloudinary.com/db5yniogx/image/upload/v1735322515/shantibarigallerycloud2_s2gybw.jpg',
     'https://res.cloudinary.com/db5yniogx/image/upload/v1735322514/shantibarigallerycloud3_bbszh0.jpg',
@@ -16,25 +27,43 @@ function PhotoGallery() {
     'https://res.cloudinary.com/db5yniogx/image/upload/v1735322512/shantibarigallerycloud4_b50nre.jpg',
   ];
 
+  const changeMainImage = (photo) => {
+    setSelectedImage(photo);
+  };
+
+  // Set the initial selected image to the first one if no image is selected
+  if (!selectedImage) {
+    setSelectedImage(photos[0]);
+  }
+
   return (
     <div className="w-full py-12 bg-gray-200">
       <div className="max-w-[1440px] mx-auto px-4">
         {/* Title */}
         <h2 className="text-3xl font-bold text-center mb-8 font-playfair">Photo Gallery</h2>
 
-        {/* Gallery Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        {/* Main Image Display */}
+        <div className="mb-8">
+          <img
+            src={selectedImage}
+            alt="Selected"
+            className="w-full max-h-[1200px] object-cover rounded-lg shadow-lg"
+          />
+        </div>
+
+        {/* Thumbnail Image Slider */}
+        <div className="grid gap-4 md:grid-cols-5 sm:grid-cols-3 grid-cols-2">
           {photos.map((photo, index) => (
-            <div key={index} className="relative overflow-hidden rounded-lg shadow-lg group">
-              <img 
-                src={photo} 
-                alt={`Gallery ${index + 1}`} 
-                className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110"
+            <div
+              key={index}
+              className="cursor-pointer"
+              onClick={() => changeMainImage(photo)} // Change main display image when thumbnail is clicked
+            >
+              <img
+                src={photo}
+                alt={`Thumbnail ${index + 1}`}
+                className="w-full h-auto object-cover rounded-lg shadow-md hover:scale-105 transition-transform duration-200"
               />
-              {/* Overlay */}
-              <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-opacity duration-300 flex items-center justify-center">
-                <span className="text-white text-lg font-semibold opacity-0 group-hover:opacity-100">View</span>
-              </div>
             </div>
           ))}
         </div>
