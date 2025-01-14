@@ -3,48 +3,24 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // Import Components
 import Navbar from "./components/Navbar";
-import HeroSection from "./components/HeroSection";
-import FounderMembers from "./components/FounderMembers";
+import Footer from "./components/Footer";
+import HomePage from "./components/HomePage"; // Import HomePage from HomePage.jsx
 import FounderDetail from "./components/FounderProfileSharminShams";
-import OurAdvisors from "./components/OurAdvisors";
 import AdvisorDetail from "./components/AdvisorDetail";
-import OurLawyers from "./components/OurLawyers";
-import PsychiatristPsychologist from "./components/Psychologist";
-import OurServices from "./components/OurServices";
-import OurTeam from "./components/OurTeam";
-import CharityMorganCafe from "./components/CharityMorganCafe";
-import PhotoGallery from "./components/PhotoGallery";
-import AboutUs from "./components/AboutUs";
 import Event from "./components/Event";
 import EventDetails from "./components/Eventdetails";
-import MediaCoverage from "./components/MediaCoverage";
-import FridaKahloGallery from "./components/FridaKahloGallery";
-import Footer from "./components/Footer";
+import OurServices from "./components/OurServices";
+import ContactUs from "./components/ContactUs";
+import AboutUs from "./components/AboutUs";
 import LawyerDetails from "./components/LawyerDetails";
 import PsychologistAndPsychiatristDetail from "./components/PsychologistAndPsychiatristDetailPage";
-import ServiceDetail from "./components/ServiceDetailPage";
-import ContactUs from "./components/ContactUs";
+import MediaCoverage from "./components/MediaCoverage";
+import FridaKahloGallery from "./components/FridaKahloGallery";
 import AudioVisual from "./components/AudioVisual";
 import EntrepreneurialSupportProgram from "./components/EntrepreneurialSupportProgram";
 import CulturalDevelopment from "./components/CulturalDevelopment";
 import MentalHealthSupport from "./components/MentalHealthSupport";
-
-// Define Home Page Layout
-function HomePage() {
-  return (
-    <>
-      <HeroSection />
-      <FounderMembers />
-      <OurAdvisors />
-      <OurLawyers />
-      <PsychiatristPsychologist />
-      <OurServices />
-      <OurTeam />
-      <CharityMorganCafe />
-      <PhotoGallery />
-    </>
-  );
-}
+import OurTeam from "./components/OurTeam";
 
 // Main App Component
 function App() {
@@ -65,19 +41,9 @@ function App() {
 
         {/* Services Routes */}
         <Route path="/services" element={<OurServices />} />
-
-        <Route
-          path="/services/:serviceId"
-          element={<EntrepreneurialSupportProgram />}
-        />
-        <Route
-          path="/services/cultural-development-program"
-          element={<CulturalDevelopment />}
-        />
-        <Route
-          path="/services/mental-health-support"
-          element={<MentalHealthSupport />}
-        />
+        <Route path="/services/:serviceId" element={<EntrepreneurialSupportProgram />} />
+        <Route path="/services/cultural-development-program" element={<CulturalDevelopment />} />
+        <Route path="/services/mental-health-support" element={<MentalHealthSupport />} />
 
         {/* Team and Contact */}
         <Route path="/contact-us" element={<ContactUs />} />
@@ -85,10 +51,7 @@ function App() {
 
         {/* Lawyers and Psychologists */}
         <Route path="/lawyer/:id" element={<LawyerDetails />} />
-        <Route
-          path="/details/:id"
-          element={<PsychologistAndPsychiatristDetail />}
-        />
+        <Route path="/details/:id" element={<PsychologistAndPsychiatristDetail />} />
 
         {/* Media and Galleries */}
         <Route path="/media-coverage" element={<MediaCoverage />} />

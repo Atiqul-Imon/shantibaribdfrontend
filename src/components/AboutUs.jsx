@@ -16,6 +16,7 @@ const AboutUs = () => {
         <meta name="keywords" content="Shantibari, About Us, Women's Empowerment, Mission, Vision, Impact, Bangladesh" />
       </Helmet>
 
+
       {/* Hero Section */}
       <section
         className="relative bg-cover bg-center h-[400px] rounded-lg shadow-lg overflow-hidden"
