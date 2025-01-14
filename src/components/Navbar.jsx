@@ -23,7 +23,7 @@ const Navbar = () => {
   }}
 >
   <img
-    src="https://res.cloudinary.com/db5yniogx/image/upload/v1735327489/shantibarilogocloud_a8h82d.png"
+    src="https://res.cloudinary.com/db5yniogx/image/upload/t_Media%20Coverage/v1736871887/shantibarilogocloud_j5gt3p.jpg"
     alt="Shantibari Logo"
     className="w-28 h-auto cursor-pointer"
   />
