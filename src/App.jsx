@@ -21,6 +21,7 @@ import EntrepreneurialSupportProgram from "./components/EntrepreneurialSupportPr
 import CulturalDevelopment from "./components/CulturalDevelopment";
 import MentalHealthSupport from "./components/MentalHealthSupport";
 import OurTeam from "./components/OurTeam";
+import LegalAdviceDetails from "./components/LegalAdvicedetails";
 
 // Main App Component
 function App() {
@@ -44,6 +45,7 @@ function App() {
         <Route path="/services/:serviceId" element={<EntrepreneurialSupportProgram />} />
         <Route path="/services/cultural-development-program" element={<CulturalDevelopment />} />
         <Route path="/services/mental-health-support" element={<MentalHealthSupport />} />
+        <Route path="/services/legal-advice-and-services" element= {<LegalAdviceDetails />} />
 
         {/* Team and Contact */}
         <Route path="/contact-us" element={<ContactUs />} />
