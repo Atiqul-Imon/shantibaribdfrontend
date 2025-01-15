@@ -6,6 +6,19 @@ function PhotoGallery() {
   const [startIndex, setStartIndex] = useState(0); // Index of the first image in the visible range
 
   const photos = [
+    'https://res.cloudinary.com/db5yniogx/image/upload/v1736939701/valothakacloud15_nsmhgi.jpg',
+    'https://res.cloudinary.com/db5yniogx/image/upload/v1736939567/valothakacloud14_o2cvwo.jpg',
+    'https://res.cloudinary.com/db5yniogx/image/upload/v1736939508/valothakacloud13_idtbud.jpg',
+    'https://res.cloudinary.com/db5yniogx/image/upload/v1736939456/valothakacloud12_dd1kd8.jpg',
+    'https://res.cloudinary.com/db5yniogx/image/upload/v1736939400/valothakacloud11_ixup0l.jpg',
+    'https://res.cloudinary.com/db5yniogx/image/upload/v1736939341/valothakacloud10_ybdvog.jpg',
+    'https://res.cloudinary.com/db5yniogx/image/upload/v1736939273/valothakacloud9_ftpitn.jpg',
+    'https://res.cloudinary.com/db5yniogx/image/upload/v1736939201/valothakacloud8_z4wyqi.jpg',
+    'https://res.cloudinary.com/db5yniogx/image/upload/v1736938959/valothakacloud6.jpg',
+    'https://res.cloudinary.com/db5yniogx/image/upload/v1736938884/valothakacloud4_isebzh.jpg',
+    'https://res.cloudinary.com/db5yniogx/image/upload/v1736939120/valothakacloud7_nwlzys.jpg',
+    'https://res.cloudinary.com/db5yniogx/image/upload/v1736938762/valothakacloud2_kar9l8.jpg',
+    'https://res.cloudinary.com/db5yniogx/image/upload/v1736938691/valothakacloud1_btekow.jpg',
     'https://res.cloudinary.com/db5yniogx/image/upload/v1736883846/valothaka2_gzv8ln.jpg',
     'https://res.cloudinary.com/db5yniogx/image/upload/v1736883835/valothaka1_pyeiua.jpg',
     'https://res.cloudinary.com/db5yniogx/image/upload/v1736883728/valothakarutsob5_oaswl4.jpg',
