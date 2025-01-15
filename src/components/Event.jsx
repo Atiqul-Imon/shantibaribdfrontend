@@ -27,8 +27,8 @@ const Event = () => {
 
         <div className="bg-white p-6 rounded-lg shadow-lg">
             <img
-              src="https://via.placeholder.com/400"
-              alt="Event 1"
+              src="https://res.cloudinary.com/db5yniogx/image/upload/v1736943683/parenting03_jpmi4u.jpg"
+              alt="Parenting Session"
               className="w-full h-48 object-cover rounded-t-lg"
             />
             <h3 className="text-xl font-semibold text-gray-800 mt-4">
@@ -48,8 +48,8 @@ const Event = () => {
 
         <div className="bg-white p-6 rounded-lg shadow-lg">
             <img
-              src="https://via.placeholder.com/400"
-              alt="Event 1"
+              src="https://res.cloudinary.com/db5yniogx/image/upload/v1736944336/deepascanvas2_twqksk.jpg"
+              alt="Solo Art Exhibition - “DEEPA’S CANVAS”, Arunima Saha Deepa"
               className="w-full h-48 object-cover rounded-t-lg"
             />
             <h3 className="text-xl font-semibold text-gray-800 mt-4">
@@ -69,8 +69,8 @@ const Event = () => {
 
           <div className="bg-white p-6 rounded-lg shadow-lg">
             <img
-              src="https://via.placeholder.com/400"
-              alt="Event 1"
+              src="https://res.cloudinary.com/db5yniogx/image/upload/v1736944491/troyee_kqp0ip.jpg"
+              alt="ত্রয়ী"
               className="w-full h-48 object-cover rounded-t-lg"
             />
             <h3 className="text-xl font-semibold text-gray-800 mt-4">

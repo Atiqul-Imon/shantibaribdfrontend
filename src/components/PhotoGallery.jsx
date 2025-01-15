@@ -6,6 +6,7 @@ function PhotoGallery() {
   const [startIndex, setStartIndex] = useState(0); // Index of the first image in the visible range
 
   const photos = [
+    
     'https://res.cloudinary.com/db5yniogx/image/upload/v1736939701/valothakacloud15_nsmhgi.jpg',
     'https://res.cloudinary.com/db5yniogx/image/upload/v1736939567/valothakacloud14_o2cvwo.jpg',
     'https://res.cloudinary.com/db5yniogx/image/upload/v1736939508/valothakacloud13_idtbud.jpg',
