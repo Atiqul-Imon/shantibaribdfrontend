@@ -40,12 +40,6 @@ function OurLawyers() {
       description: 'Advocate, Supreme Court of Bangladesh',
       imgSrc: 'https://res.cloudinary.com/db5yniogx/image/upload/v1735314212/Adv-Fahriya-Ferdousecloud_sk71zm.jpg'
     },
-    { 
-      id: 3,
-      name: 'Adv. Farhana Afroze', 
-      description: 'Advocate, Supreme Court of Bangladesh',
-      imgSrc: 'https://res.cloudinary.com/db5yniogx/image/upload/v1735314289/advfarhanaafrozecloud_esawnx.jpg'
-    }
   ]
 
   return (
