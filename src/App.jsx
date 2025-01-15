@@ -22,6 +22,7 @@ import CulturalDevelopment from "./components/CulturalDevelopment";
 import MentalHealthSupport from "./components/MentalHealthSupport";
 import OurTeam from "./components/OurTeam";
 import LegalAdviceDetails from "./components/LegalAdvicedetails";
+import ParentingSupportDetails from "./components/ParentingSupportDetails";
 
 // Main App Component
 function App() {
@@ -42,10 +43,26 @@ function App() {
 
         {/* Services Routes */}
         <Route path="/services" element={<OurServices />} />
-        <Route path="/services/:serviceId" element={<EntrepreneurialSupportProgram />} />
-        <Route path="/services/cultural-development-program" element={<CulturalDevelopment />} />
-        <Route path="/services/mental-health-support" element={<MentalHealthSupport />} />
-        <Route path="/services/legal-advice-and-services" element= {<LegalAdviceDetails />} />
+        <Route
+          path="/services/:serviceId"
+          element={<EntrepreneurialSupportProgram />}
+        />
+        <Route
+          path="/services/cultural-development-program"
+          element={<CulturalDevelopment />}
+        />
+        <Route
+          path="/services/mental-health-support"
+          element={<MentalHealthSupport />}
+        />
+        <Route
+          path="/services/legal-advice-and-services"
+          element={<LegalAdviceDetails />}
+        />
+        <Route
+          path="/services/parenting-support"
+          element={<ParentingSupportDetails />}
+        />
 
         {/* Team and Contact */}
         <Route path="/contact-us" element={<ContactUs />} />
@@ -53,7 +70,10 @@ function App() {
 
         {/* Lawyers and Psychologists */}
         <Route path="/lawyer/:id" element={<LawyerDetails />} />
-        <Route path="/details/:id" element={<PsychologistAndPsychiatristDetail />} />
+        <Route
+          path="/details/:id"
+          element={<PsychologistAndPsychiatristDetail />}
+        />
 
         {/* Media and Galleries */}
         <Route path="/media-coverage" element={<MediaCoverage />} />
