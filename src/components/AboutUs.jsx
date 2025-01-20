@@ -1,5 +1,5 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 
 const AboutUs = () => {
   return (
@@ -15,7 +15,6 @@ const AboutUs = () => {
         <meta property="og:type" content="website" />
         <meta name="keywords" content="Shantibari, About Us, Women's Empowerment, Mission, Vision, Impact, Bangladesh" />
       </Helmet>
-
 
       {/* Hero Section */}
       <section
