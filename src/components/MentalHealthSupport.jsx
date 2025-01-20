@@ -23,6 +23,12 @@ const MentalHealthSupport = () => {
       role: `Psycho-social Counselor and Therapist`,
       image: "https://res.cloudinary.com/db5yniogx/image/upload/v1735317781/Arpitadascloud_gdnt8q.png",
     },
+
+    {
+      name: `Arpita Das`,
+      role: `Psycho-social Counselor and Therapist`,
+      image: "https://res.cloudinary.com/db5yniogx/image/upload/v1735317781/Arpitadascloud_gdnt8q.png",
+    },
   ];
 
   return (

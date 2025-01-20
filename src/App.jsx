@@ -71,7 +71,7 @@ function App() {
         {/* Lawyers and Psychologists */}
         <Route path="/lawyer/:id" element={<LawyerDetails />} />
         <Route
-          path="/details/:id"
+          path="/details/:name"
           element={<PsychologistAndPsychiatristDetail />}
         />
 

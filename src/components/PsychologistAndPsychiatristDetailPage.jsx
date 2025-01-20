@@ -2,7 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 
 const data = {
-  1: {
+  "dr-helal-uddin-ahmed": {
     name: "Dr. Helal Uddin Ahmed",
     title: "Senior Psychiatrist and Consultant",
     description: `MBBS, MD (Psychiatry)
@@ -16,14 +16,14 @@ Dr. Ahmed has more than 200 popular write up on mental health issue, published i
     imgSrc:
       "https://res.cloudinary.com/db5yniogx/image/upload/v1735317397/drhelalcloud_fvdddg.jpg",
   },
-  2: {
+  "dr-nasim-jahan": {
     name: "Dr. Nasim Jahan",
     title: "Senior Psychiatrist and Consultant",
     description: `Dr. Nasim Jahan is a Psychiatrist in Dhaka. Her qualification is MBBS, MCPS, FCPS (Psychiatry). Mental Diseases, Brain Disorder & Drug Addiction Specialist. She is a Assistant Professor, Psychiatry at Birdem General Hospital & Ibrahim Medical College.`,
     imgSrc:
       "https://res.cloudinary.com/db5yniogx/image/upload/v1735317673/Nasimjahancloud_jl62lq.png",
   },
-  3: {
+  "razia-sultana-rima": {
     name: "Razia Sultana Rima",
     title: "Psycho-social Counselor and Therapist",
     description: (
@@ -66,7 +66,8 @@ Dr. Ahmed has more than 200 popular write up on mental health issue, published i
     imgSrc:
       "https://res.cloudinary.com/db5yniogx/image/upload/v1735317558/Raziasultanarimacloud_vqmaug.png",
   },
-  4: {
+
+  "arpita-das": {
     name: "Arpita Das",
     title: "Psycho-social Counselor and Therapist",
     description: (
@@ -92,7 +93,7 @@ Dr. Ahmed has more than 200 popular write up on mental health issue, published i
     imgSrc:
       "https://res.cloudinary.com/db5yniogx/image/upload/v1735317781/Arpitadascloud_gdnt8q.png",
   },
-  5: {
+  "tanzina-chowdhury": {
     name: "Tanzina Chowdhury",
     title: "Educational and Counselling Psychologist",
     description: (
@@ -109,30 +110,62 @@ Dr. Ahmed has more than 200 popular write up on mental health issue, published i
           United International University.
         </li>
         <li>
-        Specializes in workplace and educational counseling, emphasizing client-centered assistance and empowerment.
+          Specializes in workplace and educational counseling, emphasizing
+          client-centered assistance and empowerment.
         </li>
         <li>
-        Adheres to high standards of professional conduct and ethical principles.
+          Adheres to high standards of professional conduct and ethical
+          principles.
         </li>
         <li>
-        Proficient in various counseling approaches, including SFBT, CBT, CTRT, Gestalt Therapy, Mindfulness Therapy, and Person-Centered Counseling.
+          Proficient in various counseling approaches, including SFBT, CBT,
+          CTRT, Gestalt Therapy, Mindfulness Therapy, and Person-Centered
+          Counseling.
         </li>
-        <li>Focuses on Career Counseling and expanding expertise in bereavement and grief counseling.</li>
         <li>
-        Versatile in working with clients from diverse backgrounds and age groups, including insight into parent-child relationship issues.
+          Focuses on Career Counseling and expanding expertise in bereavement
+          and grief counseling.
         </li>
-        <li>Addresses a wide range of concerns, such as academic, personal, relationship issues, and career counseling.</li>
-        <li>A beacon of competence and empathy, contributing significantly to the well-being of those she serves.</li>
+        <li>
+          Versatile in working with clients from diverse backgrounds and age
+          groups, including insight into parent-child relationship issues.
+        </li>
+        <li>
+          Addresses a wide range of concerns, such as academic, personal,
+          relationship issues, and career counseling.
+        </li>
+        <li>
+          A beacon of competence and empathy, contributing significantly to the
+          well-being of those she serves.
+        </li>
       </ul>
     ),
     imgSrc:
       "https://res.cloudinary.com/db5yniogx/image/upload/v1736852227/tanzinachoudhury01cloud_d92vrq.jpg",
   },
+
+  "m-s-mahmuda": {
+    name: "M S Mahmuda",
+    title: "Mental Health Specialist",
+    description: (
+      <ul className="list-disc list-inside text-left text-gray-700 space-y-2 mt-4">
+        <li> MHPSS, Expert (International)</li>
+        <li>Msc, Educational and Counseling Psychology, (Dhaka University)</li>
+        <li>MPH, NBU</li>
+        <li>Certified in MHCE (Fordham University, USA)</li>
+        <li>EMDR (Dhaka University, Trauma HAP, Switzerland)</li>
+        <li>Interpersonal Psychotherapy (IPT) Columbia University, USA</li>
+        <li>CBT, The Xcelomind-UYP, India</li>
+      </ul>
+    ),
+    imgSrc:
+      "https://res.cloudinary.com/db5yniogx/image/upload/v1737373449/m_s_mahmudacloud_tnrngg.jpg",
+  },
 };
 
 function PsychologistAndPsychiatristDetail() {
-  const { id } = useParams(); // Get ID from URL
-  const person = data[id];
+  const { name } = useParams(); // Get name from URL
+  const person = data[name];
 
   if (!person) {
     return (
