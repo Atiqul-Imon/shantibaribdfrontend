@@ -19,7 +19,7 @@ function HomePage() {
         <meta property="og:description" content="নারীর জন্য, নারীর পাশে" />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/db5yniogx/image/upload/v1735320654/heroimageofshantibaricloud_yevptg.jpg"
+          content="https://res.cloudinary.com/db5yniogx/image/upload/v1737380767/ogimagehome_n97kav.jpg"
         />
         <meta property="og:url" content="https://www.shantibaribd.org/" />
         <meta property="og:type" content="website" />

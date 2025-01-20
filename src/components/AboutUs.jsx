@@ -10,7 +10,7 @@ const AboutUs = () => {
         <meta name="description" content="Learn more about Shantibari, a women's organization dedicated to empowering women through education, advocacy, and support." />
         <meta property="og:title" content="About Us - Shantibari" />
         <meta property="og:description" content="Discover Shantibari's mission, vision, and impact in empowering women across Bangladesh." />
-        <meta property="og:image" content="https://res.cloudinary.com/db5yniogx/image/upload/t_Media%20Coverage/v1736871887/shantibarilogocloud_j5gt3p.jpg" />
+        <meta property="og:image" content="https://res.cloudinary.com/db5yniogx/image/upload/v1737380953/sbarioglogo_snkepr.png" />
         <meta property="og:url" content="https://www.shantibaribd.org/about-us" />
         <meta property="og:type" content="website" />
         <meta name="keywords" content="Shantibari, About Us, Women's Empowerment, Mission, Vision, Impact, Bangladesh" />
