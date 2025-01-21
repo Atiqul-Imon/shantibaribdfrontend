@@ -19,10 +19,17 @@ const MentalHealthSupport = () => {
       image: "https://res.cloudinary.com/db5yniogx/image/upload/v1735317558/Raziasultanarimacloud_vqmaug.png",
     },
     {
-      name: `Arpita Das`,
-      role: `Psycho-social Counselor and Therapist`,
-      image: "https://res.cloudinary.com/db5yniogx/image/upload/v1735317781/Arpitadascloud_gdnt8q.png",
+      name: `M S Mahmuda`,
+      role: `Mental Health Specialist`,
+      image: "https://res.cloudinary.com/db5yniogx/image/upload/v1737373449/m_s_mahmudacloud_tnrngg.jpg",
     },
+
+    {
+      name: `Tanzina Chowdhury`,
+      role: `Educational and Counselling Psychologist`,
+      image: "https://res.cloudinary.com/db5yniogx/image/upload/v1736852227/tanzinachoudhury01cloud_d92vrq.jpg",
+    },
+
 
     {
       name: `Arpita Das`,
