@@ -1,11 +1,46 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 
 const AboutUs = () => {
+  const canonicalUrl = "https://shantibaribd.org/about-us";
   return (
     <div>
-      {/* Helmet for SEO */}
+      <Helmet>
+        <title>About Us - Shantibari</title>
+        <link rel="canonical" href={canonicalUrl} />
+        <meta
+          name="description"
+          content="Shantibari is a women's organization based in Dhaka, Bangladesh, empowering women through mental health support, legal aid, and entrepreneurship programs."
+        />
 
-      {/* Hero Section */}
+        {/* Open Graph */}
+        <meta property="og:title" content="About Us - Shantibari" />
+        <meta
+          property="og:description"
+          content="Learn about Shantibari's mission to empower women in Bangladesh through comprehensive support programs and community initiatives."
+        />
+        <meta
+          property="og:image"
+          content="https://res.cloudinary.com/db5yniogx/image/upload/v1737380953/sbarioglogo_snkepr.png"
+        />
+        <meta property="og:url" content={canonicalUrl} />
+        <meta property="og:type" content="website" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="About Us - Shantibari" />
+        <meta
+          name="twitter:description"
+          content="Empowering women in Bangladesh through comprehensive support programs"
+        />
+        <meta
+          name="twitter:image"
+          content="https://res.cloudinary.com/db5yniogx/image/upload/v1737380953/sbarioglogo_snkepr.png"
+        />
+      </Helmet>
+
       <section
         className="relative bg-cover bg-center h-[400px] rounded-lg shadow-lg overflow-hidden"
         style={{
