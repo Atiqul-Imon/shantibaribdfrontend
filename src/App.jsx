@@ -29,9 +29,9 @@ import ParentingSupportDetails from "./components/ParentingSupportDetails";
 function App() {
   return (
     <HelmetProvider>
-    <Router>
-      <Navbar />
-      
+      <Router>
+        <Navbar />
+
         <Routes>
           {/* Home Page */}
           <Route path="/" element={<HomePage />} />
@@ -86,9 +86,9 @@ function App() {
           {/* About Us */}
           <Route path="/about-us" element={<AboutUs />} />
         </Routes>
-      
-      <Footer />
-    </Router>
+
+        <Footer />
+      </Router>
     </HelmetProvider>
   );
 }
