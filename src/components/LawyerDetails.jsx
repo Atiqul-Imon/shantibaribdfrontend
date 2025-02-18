@@ -20,12 +20,10 @@ In addition to her legal practice, Ms. Ferdous has collaborated with non-governm
       "https://res.cloudinary.com/db5yniogx/image/upload/v1735314212/Adv-Fahriya-Ferdousecloud_sk71zm.jpg",
   },
   3: {
-    name: "Adv. Farhana Afroze",
-    description: `Farhana Afroze completed her LLB and LLM from Rajshahi University. She began her career at the Legal Aid and Mediation Centre. For 12 years, she worked as a lawyer in the Legal Unit of the organization. Subsequently, she served as an Assistant Attorney General for Bangladesh. Currently, she is practicing in the areas of criminal, civil, and family matters.
-She has received training in mediation under the Bangladesh International Mediation Society (BIMS) and in ADR through a program organized by SAILS. Additionally, she is a panel lawyer for Biman Bangladesh Airlines.
-`,
+    name: "Mahjabin Rabbani ",
+    description: `Lawyer, Bangladesh Supreme court`,
     imgSrc:
-      "https://res.cloudinary.com/db5yniogx/image/upload/v1735314289/advfarhanaafrozecloud_esawnx.jpg",
+      "https://res.cloudinary.com/db5yniogx/image/upload/t_Media Coverage/v1739882391/Mahjabin_Rabbani_m949iy.jpg",
   },
 };
 
