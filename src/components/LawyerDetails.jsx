@@ -10,6 +10,12 @@ const lawyerData = {
       "https://res.cloudinary.com/db5yniogx/image/upload/v1735494831/nahidshamsshantibaricloud_wqbzwp.jpg",
   },
   2: {
+    name: "Mahjabin Rabbani ",
+    description: `Lawyer, Bangladesh Supreme court`,
+    imgSrc:
+      "https://res.cloudinary.com/db5yniogx/image/upload/v1740536647/mahjabinrabbani_ve4nka.jpg",
+  },
+  3: {
     name: "Adv. Fahriya Ferdous",
     description: `Fahriya Ferdous is a distinguished Advocate at the Supreme Court of Bangladesh. Following the completion of her academic studies in 2009, she commenced her legal career at one of the most esteemed law firms in the country, Ruhul Quddus & Jurist. Under the mentorship of Mr. Md. Ruhul Quddus, Barrister-at-Law and Senior Advocate of the Supreme Court of Bangladesh, Ms. Ferdous honed her expertise and officially enrolled as an Advocate in 2010.
 
@@ -18,12 +24,6 @@ Throughout her career, Ms. Ferdous has demonstrated unwavering dedication to the
 In addition to her legal practice, Ms. Ferdous has collaborated with non-governmental organizations (NGOs), international non-governmental organizations (INGOs), and both national and international organizations, further enriching her professional portfolio and showcasing her versatile legal expertise.`,
     imgSrc:
       "https://res.cloudinary.com/db5yniogx/image/upload/v1735314212/Adv-Fahriya-Ferdousecloud_sk71zm.jpg",
-  },
-  3: {
-    name: "Mahjabin Rabbani ",
-    description: `Lawyer, Bangladesh Supreme court`,
-    imgSrc:
-      "https://res.cloudinary.com/db5yniogx/image/upload/t_Media Coverage/v1739882391/Mahjabin_Rabbani_m949iy.jpg",
   },
 };
 

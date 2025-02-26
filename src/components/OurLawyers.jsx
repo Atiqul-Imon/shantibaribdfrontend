@@ -35,19 +35,20 @@ function OurLawyers() {
       imgSrc:
         "https://res.cloudinary.com/db5yniogx/image/upload/v1735494831/nahidshamsshantibaricloud_wqbzwp.jpg",
     },
+
     {
       id: 2,
+      name: "Mahjabin Rabbani ",
+      description: "Lawyer, Bangladesh Supreme court",
+      imgSrc:
+        "https://res.cloudinary.com/db5yniogx/image/upload/v1740536647/mahjabinrabbani_ve4nka.jpg",
+    },
+    {
+      id: 3,
       name: "Adv. Fahriya Ferdous",
       description: "Advocate, Supreme Court of Bangladesh",
       imgSrc:
         "https://res.cloudinary.com/db5yniogx/image/upload/v1735314212/Adv-Fahriya-Ferdousecloud_sk71zm.jpg",
-    },
-    {
-      id: 3,
-      name: "Mahjabin Rabbani ",
-      description: "Lawyer, Bangladesh Supreme court",
-      imgSrc:
-        "https://res.cloudinary.com/db5yniogx/image/upload/t_Media Coverage/v1739882391/Mahjabin_Rabbani_m949iy.jpg",
     },
   ];
 
