@@ -31,24 +31,24 @@ function OurLawyers() {
     {
       id: 1,
       name: "Adv. Nahid Shams",
-      description: "Advocate, Supreme Court of Bangladesh",
+      description: "Director (Legal Service)",
       imgSrc:
         "https://res.cloudinary.com/db5yniogx/image/upload/v1735494831/nahidshamsshantibaricloud_wqbzwp.jpg",
     },
 
     {
       id: 2,
-      name: "Mahjabin Rabbani ",
-      description: "Lawyer, Bangladesh Supreme court",
+      name: "Adv. Mahjabin Rabbani ",
+      description: "Advocate, Bangladesh Supreme Court",
       imgSrc:
-        "https://res.cloudinary.com/db5yniogx/image/upload/v1740536647/mahjabinrabbani_ve4nka.jpg",
+        "https://res.cloudinary.com/db5yniogx/image/upload/v1740936984/mahjabinrabbani123-removebg-preview_1_kztsra.png",
     },
     {
       id: 3,
-      name: "Adv. Fahriya Ferdous",
-      description: "Advocate, Supreme Court of Bangladesh",
+      name: "Adv. Fahriya Ferdous ",
+      description: "Advocate, Bangladesh Supreme court",
       imgSrc:
-        "https://res.cloudinary.com/db5yniogx/image/upload/v1735314212/Adv-Fahriya-Ferdousecloud_sk71zm.jpg",
+        "https://res.cloudinary.com/db5yniogx/image/upload/v1740936657/Adv-Fahriya-Ferdousecloud234-removebg-preview_1_jkohth.png",
     },
   ];
 

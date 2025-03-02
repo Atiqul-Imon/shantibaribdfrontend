@@ -17,11 +17,7 @@ function OurTeam() {
       designation: 'Office Executive',
       imgSrc: 'https://res.cloudinary.com/db5yniogx/image/upload/v1735319973/halimaakhtercloud_m0ypu2.png'
     }, 
-    {
-      name: 'Sadia Mehzabin',
-      designation: 'Graphics Designer',
-      imgSrc: 'https://res.cloudinary.com/db5yniogx/image/upload/v1737376993/sadiamahzabin1_gzbtmq.jpg'
-    }
+    
   ];
 
   return (

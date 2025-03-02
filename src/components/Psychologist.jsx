@@ -16,14 +16,14 @@ function PsychiatristPsychologist() {
       name: "Dr. Helal Uddin Ahmed",
       title: "Senior Psychiatrist and Consultant",
       imgSrc:
-        "https://res.cloudinary.com/db5yniogx/image/upload/v1735317397/drhelalcloud_fvdddg.jpg",
+        "https://res.cloudinary.com/db5yniogx/image/upload/t_Media Coverage/v1740936031/drhelalcloud_fvdddg234-removebg-preview_1_dvcph6.png",
     },
     {
       id: 2,
       name: "Dr. Nasim Jahan",
       title: "Senior Psychiatrist and Consultant",
       imgSrc:
-        "https://res.cloudinary.com/db5yniogx/image/upload/v1735317673/Nasimjahancloud_jl62lq.png",
+        "https://res.cloudinary.com/db5yniogx/image/upload/t_Media Coverage/v1740936189/Nasimjahancloud-removebg-preview_ppm0qa.png",
     },
   ];
 
@@ -34,21 +34,21 @@ function PsychiatristPsychologist() {
       name: "Razia Sultana Rima",
       title: "Psycho-social Counselor and Therapist",
       imgSrc:
-        "https://res.cloudinary.com/db5yniogx/image/upload/v1735317558/Raziasultanarimacloud_vqmaug.png",
+        "https://res.cloudinary.com/db5yniogx/image/upload/t_Media Coverage/v1740929357/raziasultanarima23_fs0ulv.jpg",
     },
     {
       id: 4,
       name: "M S Mahmuda",
       title: "Mental Health Specialist",
       imgSrc:
-        "https://res.cloudinary.com/db5yniogx/image/upload/v1737373449/m_s_mahmudacloud_tnrngg.jpg",
+        "https://res.cloudinary.com/db5yniogx/image/upload/t_Media Coverage/v1740935356/msmahmuda21_zjtg1o.jpg",
     },
     {
       id: 5,
       name: "Tanzina Chowdhury",
       title: "Educational and Counselling Psychologist",
       imgSrc:
-        "https://res.cloudinary.com/db5yniogx/image/upload/v1736852227/tanzinachoudhury01cloud_d92vrq.jpg",
+        "https://res.cloudinary.com/db5yniogx/image/upload/t_Media Coverage/v1740935709/tanzina234_dz2ggx.jpg",
     },
     {
       id: 6,

@@ -13,7 +13,7 @@ const lawyerData = {
     name: "Mahjabin Rabbani ",
     description: `Lawyer, Bangladesh Supreme court`,
     imgSrc:
-      "https://res.cloudinary.com/db5yniogx/image/upload/v1740536647/mahjabinrabbani_ve4nka.jpg",
+      "https://res.cloudinary.com/db5yniogx/image/upload/v1740936984/mahjabinrabbani123-removebg-preview_1_kztsra.png",
   },
   3: {
     name: "Adv. Fahriya Ferdous",
@@ -23,7 +23,7 @@ Throughout her career, Ms. Ferdous has demonstrated unwavering dedication to the
 
 In addition to her legal practice, Ms. Ferdous has collaborated with non-governmental organizations (NGOs), international non-governmental organizations (INGOs), and both national and international organizations, further enriching her professional portfolio and showcasing her versatile legal expertise.`,
     imgSrc:
-      "https://res.cloudinary.com/db5yniogx/image/upload/v1735314212/Adv-Fahriya-Ferdousecloud_sk71zm.jpg",
+      "https://res.cloudinary.com/db5yniogx/image/upload/v1740936657/Adv-Fahriya-Ferdousecloud234-removebg-preview_1_jkohth.png",
   },
 };
 

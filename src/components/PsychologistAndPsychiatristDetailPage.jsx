@@ -14,14 +14,14 @@ He has 42 publications as author or co-author and presented 11 scientific papers
 Dr. Ahmed has more than 200 popular write up on mental health issue, published in national daily and weekly newspapers. In 2013 He received “Prof. Hidayetul Islam Gold Medal Award” for research contribution and devotion in Psychiatry as a young psychiatrist of Bangladesh. Currently he is working as Associate Professor of Child Adolescent and Family Psychiatry in National Institute of Mental Health (NIMH), Dhaka, Bangladesh.
 `,
     imgSrc:
-      "https://res.cloudinary.com/db5yniogx/image/upload/v1735317397/drhelalcloud_fvdddg.jpg",
+      "https://res.cloudinary.com/db5yniogx/image/upload/t_Media Coverage/v1740936031/drhelalcloud_fvdddg234-removebg-preview_1_dvcph6.png",
   },
   "dr-nasim-jahan": {
     name: "Dr. Nasim Jahan",
     title: "Senior Psychiatrist and Consultant",
     description: `Dr. Nasim Jahan is a Psychiatrist in Dhaka. Her qualification is MBBS, MCPS, FCPS (Psychiatry). Mental Diseases, Brain Disorder & Drug Addiction Specialist. She is a Assistant Professor, Psychiatry at Birdem General Hospital & Ibrahim Medical College.`,
     imgSrc:
-      "https://res.cloudinary.com/db5yniogx/image/upload/v1735317673/Nasimjahancloud_jl62lq.png",
+      "https://res.cloudinary.com/db5yniogx/image/upload/t_Media Coverage/v1740936189/Nasimjahancloud-removebg-preview_ppm0qa.png",
   },
   "razia-sultana-rima": {
     name: "Razia Sultana Rima",
@@ -64,7 +64,7 @@ Dr. Ahmed has more than 200 popular write up on mental health issue, published i
       </ul>
     ),
     imgSrc:
-      "https://res.cloudinary.com/db5yniogx/image/upload/v1735317558/Raziasultanarimacloud_vqmaug.png",
+      "https://res.cloudinary.com/db5yniogx/image/upload/t_Media Coverage/v1740929357/raziasultanarima23_fs0ulv.jpg",
   },
 
   "arpita-das": {
@@ -141,7 +141,7 @@ Dr. Ahmed has more than 200 popular write up on mental health issue, published i
       </ul>
     ),
     imgSrc:
-      "https://res.cloudinary.com/db5yniogx/image/upload/v1736852227/tanzinachoudhury01cloud_d92vrq.jpg",
+      "https://res.cloudinary.com/db5yniogx/image/upload/t_Media Coverage/v1740935709/tanzina234_dz2ggx.jpg",
   },
 
   "m-s-mahmuda": {
@@ -159,7 +159,7 @@ Dr. Ahmed has more than 200 popular write up on mental health issue, published i
       </ul>
     ),
     imgSrc:
-      "https://res.cloudinary.com/db5yniogx/image/upload/v1737373449/m_s_mahmudacloud_tnrngg.jpg",
+      "https://res.cloudinary.com/db5yniogx/image/upload/t_Media Coverage/v1740935356/msmahmuda21_zjtg1o.jpg",
   },
 };
 
