@@ -11,7 +11,15 @@ const lawyerData = {
   },
   2: {
     name: "Mahjabin Rabbani ",
-    description: `Lawyer, Bangladesh Supreme court`,
+    description: `Mahjabin Rabbani is an experienced lawyer who has been practicing at the Bangladesh Supreme Court for over two decades. As part of her legal career, she has served as a lawyer for a renowned national human rights organization, where she played a key role in handling Public Interest Litigations (PILs) on behalf of the organization.
+
+She has extensive experience in combating violence against women and domestic abuse, as well as working as a mediator to resolve family disputes and conflicts.
+
+From 2019 to 2024, she served as an Assistant Attorney General at the Attorney General's Office, representing the state in various significant cases with dedication and integrity.
+
+Additionally, she was a member of the Executive Committee of Bangladesh Legal Aid for four years, where she actively worked to provide free legal assistance to underprivileged and justice-seeking individuals.
+
+Currently, she is associated with Z. I. Khan & Associates, where she specializes in civil, criminal, writ, financial debt, and corporate matters as a practicing lawyer.`,
     imgSrc:
       "https://res.cloudinary.com/db5yniogx/image/upload/v1740936984/mahjabinrabbani123-removebg-preview_1_kztsra.png",
   },
