@@ -64,7 +64,7 @@ Dr. Ahmed has more than 200 popular write up on mental health issue, published i
       </ul>
     ),
     imgSrc:
-      "https://res.cloudinary.com/db5yniogx/image/upload/t_Media Coverage/v1740929357/raziasultanarima23_fs0ulv.jpg",
+      "https://res.cloudinary.com/db5yniogx/image/upload/t_Media Coverage/v1741159194/RaziasultanaRima2_uganzq.jpg",
   },
 
   "arpita-das": {

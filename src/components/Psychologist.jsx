@@ -34,7 +34,7 @@ function PsychiatristPsychologist() {
       name: "Razia Sultana Rima",
       title: "Psycho-social Counselor and Therapist",
       imgSrc:
-        "https://res.cloudinary.com/db5yniogx/image/upload/t_Media Coverage/v1740929357/raziasultanarima23_fs0ulv.jpg",
+        "https://res.cloudinary.com/db5yniogx/image/upload/t_Media Coverage/v1741159194/RaziasultanaRima2_uganzq.jpg",
     },
     {
       id: 4,

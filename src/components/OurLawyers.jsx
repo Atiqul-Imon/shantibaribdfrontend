@@ -31,7 +31,7 @@ function OurLawyers() {
     {
       id: 1,
       name: "Adv. Nahid Shams",
-      description: "Director (Legal Service)",
+      description: "Director (Legal Services)",
       imgSrc:
         "https://res.cloudinary.com/db5yniogx/image/upload/v1735494831/nahidshamsshantibaricloud_wqbzwp.jpg",
     },
