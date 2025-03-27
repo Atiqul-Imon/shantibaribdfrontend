@@ -9,6 +9,7 @@ import OurServices from "../components/OurServices";
 import OurTeam from "../components/OurTeam";
 import CharityMorganCafe from "../components/CharityMorganCafe";
 import PhotoGallery from "../components/PhotoGallery";
+import WeAreHiring from "./WeAreHiring";
 
 function HomePage() {
   return (
@@ -20,9 +21,11 @@ function HomePage() {
       <OurLawyers />
       <PsychiatristPsychologist />
       <OurServices />
+      <WeAreHiring/>
       <OurTeam />
       <CharityMorganCafe />
       <PhotoGallery />
+      
     </>
   );
 }
