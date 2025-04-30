@@ -21,7 +21,7 @@ function HomePage() {
       <OurLawyers />
       <PsychiatristPsychologist />
       <OurServices />
-      {/* <WeAreHiring/> */}
+      <WeAreHiring/>
       <OurTeam />
       <CharityMorganCafe />
       <PhotoGallery />
