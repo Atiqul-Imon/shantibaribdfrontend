@@ -9,6 +9,8 @@ const Navbar = () => {
     setIsMenuOpen(false);
   };
 
+  
+
   return (
     <nav className="bg-white text-black sticky top-0 z-50 shadow-md">
       <div className="max-w-[auto] mx-auto px-4 sm:px-6 lg:px-8">
@@ -19,13 +21,15 @@ const Navbar = () => {
   to="/"
   onClick={() => {
     closeMenu();
-    window.scrollTo({ top: 0, behavior: "smooth" }); // Scroll to top
+    window.scrollTo({ top: 0, behavior: "smooth" }); 
   }}
 >
   <img
     src="https://res.cloudinary.com/db5yniogx/image/upload/t_Media%20Coverage/v1736871887/shantibarilogocloud_j5gt3p.jpg"
     alt="Shantibari Logo"
     className="w-28 h-auto cursor-pointer"
+   
+    
   />
 </NavLink>
 

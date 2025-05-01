@@ -12,11 +12,7 @@ function OurTeam() {
       designation: 'Program Executive',
       imgSrc: 'https://res.cloudinary.com/db5yniogx/image/upload/v1735319924/sabreenabadhancloud_ht38pf.png'
     },
-    {
-      name: 'Halima Akther Bristy',
-      designation: 'Office Executive',
-      imgSrc: 'https://res.cloudinary.com/db5yniogx/image/upload/v1735319973/halimaakhtercloud_m0ypu2.png'
-    }, 
+   
     
   ];
 
