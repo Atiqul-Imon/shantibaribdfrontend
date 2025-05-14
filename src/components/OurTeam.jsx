@@ -12,6 +12,12 @@ function OurTeam() {
       designation: 'Program Executive',
       imgSrc: 'https://res.cloudinary.com/db5yniogx/image/upload/v1735319924/sabreenabadhancloud_ht38pf.png'
     },
+
+    {
+      name: 'Roxana Akter Saima',
+      designation: 'Office Executive',
+      imgSrc: 'https://res.cloudinary.com/db5yniogx/image/upload/v1747261442/BeautyPlus_eouzea.jpg'
+    },
    
     
   ];

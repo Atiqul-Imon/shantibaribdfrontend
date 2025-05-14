@@ -84,9 +84,9 @@ const Navbar = () => {
             <NavLink to="/media-coverage" className="hover:text-gray-400">
               Media Coverage
             </NavLink>
-            <NavLink to="/brochure" className="hover:text-gray-400">
+            {/* <NavLink to="/brochure" className="hover:text-gray-400">
               Download Brochure
-            </NavLink>
+            </NavLink> */}
           </div>
         </div>
       </div>
