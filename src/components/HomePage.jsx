@@ -9,6 +9,7 @@ import OurServices from "../components/OurServices";
 import OurTeam from "../components/OurTeam";
 import CharityMorganCafe from "../components/CharityMorganCafe";
 import PhotoGallery from "../components/PhotoGallery";
+import Gallery from "./Gallery";
 // import WeAreHiring from "./WeAreHiring";
 
 function HomePage() {
@@ -24,7 +25,8 @@ function HomePage() {
       {/* <WeAreHiring/> */}
       <OurTeam />
       <CharityMorganCafe />
-      <PhotoGallery />
+      {/* <PhotoGallery /> */}
+      <Gallery />
       
     </>
   );
