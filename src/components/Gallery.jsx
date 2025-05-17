@@ -106,7 +106,7 @@ const [allPhotos, setAllPhotos] = useState([]);
       </div>
 
       <div className="mx-auto px-4">
-        <div className="columns-1 sm:columns-2 md:columns-3 lg:columns-3 gap-4 space-y-4">
+        <div className="columns-1 sm:columns-1 md:columns-2 lg:columns-3 gap-4 space-y-4">
           {photos.map((photo, index) => (
             <div key={index} className="break-inside-avoid overflow-hidden  shadow-md">
               <img
